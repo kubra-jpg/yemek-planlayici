@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "Menemen",
+    "time_min": 15,
+    "servings": 2,
+    "ingredients": ["yumurta", "domates", "biber", "yağ", "tuz"],
+    "steps": [
+      "Biberleri doğrayıp yağda kavur.",
+      "Domatesleri ekle, suyunu çekene kadar pişir.",
+      "Yumurtaları kır, karıştırarak pişir."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Omlet",
+    "time_min": 10,
+    "servings": 1,
+    "ingredients": ["yumurta", "süt", "yağ", "tuz"],
+    "steps": [
+      "Yumurta, süt ve tuzu çırp.",
+      "Tavada yağı ısıt, karışımı dök.",
+      "İki tarafını da pişir."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mercimek çorbası",
+    "time_min": 35,
+    "servings": 4,
+    "ingredients": ["kırmızı mercimek", "soğan", "havuç", "patates", "yağ", "tuz"],
+    "steps": [
+      "Soğanı yağda kavur.",
+      "Mercimek, havuç, patates ve suyu ekleyip yumuşayana kadar pişir.",
+      "Blenderdan geçir, tuzunu ayarla."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Domates soslu makarna",
+    "time_min": 25,
+    "servings": 2,
+    "ingredients": ["makarna", "domates", "soğan", "sarımsak", "yağ", "tuz"],
+    "steps": [
+      "Makarnayı tuzlu suda haşla.",
+      "Soğan ve sarımsağı kavurup rendelenmiş domatesi ekle, sosu pişir.",
+      "Makarna ile sosu karıştır."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sade pilav",
+    "time_min": 25,
+    "servings": 3,
+    "ingredients": ["pirinç", "tereyağı", "tuz"],
+    "steps": [
+      "Pirinci yıkayıp süzdür.",
+      "Tereyağında kısaca kavur.",
+      "Sıcak su ve tuz ekleyip kısık ateşte demlenene kadar pişir."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Çoban salatası",
+    "time_min": 10,
+    "servings": 2,
+    "ingredients": ["domates", "salatalık", "biber", "soğan", "zeytinyağı", "tuz"],
+    "steps": [
+      "Sebzeleri küçük küçük doğra.",
+      "Zeytinyağı ve tuzla karıştır."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Patates kızartması",
+    "time_min": 25,
+    "servings": 2,
+    "ingredients": ["patates", "yağ", "tuz"],
+    "steps": [
+      "Patatesleri soyup çubuk şeklinde doğra.",
+      "Kızgın yağda altın rengi olana kadar kızart.",
+      "Süzdürüp tuzla."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Yoğurtlu makarna",
+    "time_min": 15,
+    "servings": 2,
+    "ingredients": ["makarna", "yoğurt", "sarımsak", "tereyağı", "tuz"],
+    "steps": [
+      "Makarnayı haşla ve süz.",
+      "Yoğurdu ezilmiş sarımsak ve tuzla karıştır.",
+      "Makarnanın üzerine yoğurdu koy, eritilmiş tereyağını gezdir."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sebzeli güveç",
+    "time_min": 45,
+    "servings": 4,
+    "ingredients": ["patates", "havuç", "soğan", "biber", "domates", "yağ", "tuz"],
+    "steps": [
+      "Sebzeleri iri doğra.",
+      "Yağ, tuz ve az suyla bir kaba diz.",
+      "Önceden ısıtılmış fırında yumuşayana kadar pişir."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Peynirli tost",
+    "time_min": 5,
+    "servings": 1,
+    "ingredients": ["ekmek", "peynir", "tereyağı"],
+    "steps": [
+      "Ekmek dilimlerinin arasına peynir koy.",
+      "Dışını tereyağıyla ger.",
+      "Tost makinesinde veya tavada pişir."
+    ]
+  }
+]
