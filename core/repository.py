@@ -1,4 +1,3 @@
-from core.units import format_amount
 import json
 from pathlib import Path
 
@@ -6,6 +5,7 @@ from sqlalchemy import select
 
 from core.matcher import normalize
 from core.models import Ingredient, PantryItem, Recipe, RecipeIngredient, ShoppingItem
+from core.units import format_amount
 
 
 # --- Malzeme ---
@@ -19,6 +19,16 @@ def get_or_create_ingredient(session, name):
     return ingredient
 
 
+def split_names(text):
+    """Virgül, noktalı virgül veya satır sonuyla ayrılmış metni malzeme adlarına böler."""
+    if not text:
+        return []
+    for separator in (";", "\n"):
+        text = text.replace(separator, ",")
+    names = [normalize(part) for part in text.split(",")]
+    return [name for name in names if name]
+
+
 # --- Stok ve alışveriş listesi için ortak yardımcılar ---
 def _list_names(session, model):
     stmt = (
@@ -27,6 +37,8 @@ def _list_names(session, model):
         .order_by(Ingredient.name)
     )
     return list(session.scalars(stmt))
+
+
 def _list_items(session, model):
     """Miktar ve birimle birlikte liste döndürür."""
     stmt = (
@@ -35,8 +47,12 @@ def _list_items(session, model):
         .order_by(Ingredient.name)
     )
     return [
-        {"name": name, "quantity": quantity, "unit": unit,
-         "label": f"{name} ({format_amount(quantity, unit)})" if quantity else name}
+        {
+            "name": name,
+            "quantity": quantity,
+            "unit": unit,
+            "label": f"{name} ({format_amount(quantity, unit)})" if quantity else name,
+        }
         for name, quantity, unit in session.execute(stmt)
     ]
 
@@ -55,6 +71,7 @@ def _set_amount(session, model, name, quantity, unit):
     item.unit = unit
     return True
 
+
 def _add(session, model, name):
     name = normalize(name)
     if not name:
@@ -64,6 +81,7 @@ def _add(session, model, name):
     if exists:
         return False
     session.add(model(ingredient_id=ingredient.id))
+    session.flush()
     return True
 
 
@@ -85,21 +103,8 @@ def list_pantry(session):
     return _list_names(session, PantryItem)
 
 
-def add_pantry(session, name, quantity=None, unit=None):
-    """Stoğa ekler; malzeme alışveriş listesindeyse oradan çıkarır."""
-    added = _add(session, PantryItem, name)
-    if quantity is not None:
-        _set_amount(session, PantryItem, name, quantity, unit)
-    remove_shopping(session, name)
-    return added
-
-
 def list_pantry_items(session):
     return _list_items(session, PantryItem)
-
-
-def set_pantry_amount(session, name, quantity, unit):
-    return _set_amount(session, PantryItem, name, quantity, unit)
 
 
 def pantry_as_dict(session):
@@ -119,33 +124,60 @@ def add_pantry(session, name, quantity=None, unit=None):
     return added
 
 
-def list_pantry_items(session):
-    return _list_items(session, PantryItem)
+def add_pantry_many(session, text):
+    """Metindeki tüm malzemeleri stoğa ekler, eklenen adları döndürür."""
+    added = []
+    for name in split_names(text):
+        if add_pantry(session, name):
+            added.append(name)
+    return added
 
 
 def set_pantry_amount(session, name, quantity, unit):
     return _set_amount(session, PantryItem, name, quantity, unit)
 
 
-def pantry_as_dict(session):
-    """matcher için: {ad: (miktar, birim)}"""
-    return {
-        item["name"]: (item["quantity"], item["unit"])
-        for item in _list_items(session, PantryItem)
-    }
 def remove_pantry(session, name):
     return _remove(session, PantryItem, name)
+
 
 # --- Alışveriş listesi ---
 def list_shopping(session):
     return _list_names(session, ShoppingItem)
 
 
-def add_shopping(session, name):
+def list_shopping_items(session):
+    return _list_items(session, ShoppingItem)
+
+
+def add_shopping(session, name, quantity=None, unit=None):
     """Alışveriş listesine ekler; malzeme zaten evdeyse eklemez."""
     if normalize(name) in list_pantry(session):
         return False
-    return _add(session, ShoppingItem, name)
+    added = _add(session, ShoppingItem, name)
+    if added and quantity is not None:
+        _set_amount(session, ShoppingItem, name, quantity, unit)
+    return added
+
+
+def add_shopping_many(session, items):
+    """Malzemeleri alışveriş listesine ekler.
+
+    items: adlardan oluşan liste ya da {"name","quantity","unit"} sözlükleri.
+    """
+    added = []
+    for item in items:
+        if isinstance(item, dict):
+            ok = add_shopping(
+                session, item["name"], item.get("quantity"), item.get("unit")
+            )
+            name = item["name"]
+        else:
+            ok = add_shopping(session, item)
+            name = item
+        if ok:
+            added.append(name)
+    return added
 
 
 def remove_shopping(session, name):
@@ -160,7 +192,17 @@ def recipe_to_dict(recipe):
         "name": recipe.name,
         "time_min": recipe.time_min,
         "servings": recipe.servings,
-        "ingredients": [ri.ingredient.name for ri in recipe.ingredients],
+        "ingredients": [
+            {
+                "name": ri.ingredient.name,
+                "quantity": ri.quantity,
+                "unit": ri.unit,
+                "label": f"{ri.ingredient.name} ({format_amount(ri.quantity, ri.unit)})"
+                if ri.quantity
+                else ri.ingredient.name,
+            }
+            for ri in recipe.ingredients
+        ],
         "steps": recipe.steps.split("\n") if recipe.steps else [],
         "is_favorite": recipe.is_favorite,
     }
@@ -184,34 +226,18 @@ def seed_recipes_if_empty(session, json_path):
             servings=item["servings"],
             steps="\n".join(item["steps"]),
         )
-        for ingredient_name in item["ingredients"]:
-            ingredient = get_or_create_ingredient(session, ingredient_name)
-            recipe.ingredients.append(RecipeIngredient(ingredient=ingredient))
+        for raw in item["ingredients"]:
+            if isinstance(raw, dict):
+                name = raw["name"]
+                quantity = raw.get("quantity")
+                unit = raw.get("unit")
+            else:
+                name, quantity, unit = raw, None, None
+            ingredient = get_or_create_ingredient(session, name)
+            recipe.ingredients.append(
+                RecipeIngredient(ingredient=ingredient, quantity=quantity, unit=unit)
+            )
         session.add(recipe)
+
+    session.flush()
     return len(data)
-def split_names(text):
-    """Virgül, noktalı virgül veya satır sonuyla ayrılmış metni malzeme adlarına böler."""
-    if not text:
-        return []
-    for separator in (";", "\n"):
-        text = text.replace(separator, ",")
-    names = [normalize(part) for part in text.split(",")]
-    return [name for name in names if name]
-
-
-def add_pantry_many(session, text):
-    """Metindeki tüm malzemeleri stoğa ekler, eklenen adları döndürür."""
-    added = []
-    for name in split_names(text):
-        if add_pantry(session, name):
-            added.append(name)
-    return added
-
-
-def add_shopping_many(session, names):
-    """Birden çok malzemeyi alışveriş listesine ekler."""
-    added = []
-    for name in names:
-        if add_shopping(session, name):
-            added.append(name)
-    return added

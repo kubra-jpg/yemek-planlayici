@@ -5,7 +5,7 @@ import streamlit as st
 from core import repository as repo
 from core.db import get_session, init_db
 from core.matcher import match_recipes
-from core.units import UNIT_CHOICES
+from core.units import UNIT_CHOICES, format_amount
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -27,7 +27,7 @@ with get_session() as session:
     pantry = repo.pantry_as_dict(session)
     pantry_items = repo.list_pantry_items(session)
     recipes = repo.list_recipes(session)
-    shopping = repo.list_shopping(session)
+    shopping = repo.list_shopping_items(session)
 
 st.title("🍳 Yemek Planlayıcı")
 
@@ -94,12 +94,21 @@ with tab_recipes:
             pct = int(r["ratio"] * 100)
             with st.expander(f"{recipe['name']} — %{pct} eşleşme"):
                 st.write(f"⏱ {recipe['time_min']} dk | 👥 {recipe['servings']} kişilik")
-                st.write("**Elimde olanlar:** " + (", ".join(r["have"]) or "-"))
-                st.write("**Eksikler:** " + (", ".join(r["missing"]) or "-"))
+
+                st.write("**Malzemeler:**")
+                for ing in recipe["ingredients"]:
+                    mark = "✅" if ing["name"] in r["have"] else "🛒"
+                    st.write(f"{mark} {ing['label']}")
+
                 if r["insufficient"]:
                     st.warning(
-                        "Miktarı yetersiz olabilir: " + ", ".join(r["insufficient"])
+                        "Miktarı yetersiz olabilir: "
+                        + ", ".join(
+                            f"{i['name']} ({format_amount(i['quantity'], i['unit'])} gerekiyor)"
+                            for i in r["insufficient"]
+                        )
                     )
+
                 st.write("**Yapılışı:**")
                 for n, step in enumerate(recipe["steps"], start=1):
                     st.write(f"{n}. {step}")
@@ -107,10 +116,9 @@ with tab_recipes:
                     "Eksikleri listeye ekle", key=f"add_{recipe['id']}"
                 ):
                     with get_session() as session:
-                        repo.add_shopping_many(session, r["missing"])
-                    st.success(
-                        f"{len(r['missing'])} malzeme alışveriş listesine eklendi!"
-                    )
+                        added = repo.add_shopping_many(session, r["missing"])
+                    st.toast(f"{len(added)} malzeme alışveriş listesine eklendi!")
+                    st.rerun()
 
 # --- Sekme 3: Alışveriş listesi ---
 with tab_shopping:
@@ -119,8 +127,8 @@ with tab_shopping:
 
     for item in shopping:
         col1, col2 = st.columns([4, 1])
-        col1.write(item)
-        if col2.button("Aldım", key=f"buy_{item}"):
+        col1.write(item["label"])
+        if col2.button("Aldım", key=f"buy_{item['name']}"):
             with get_session() as session:
-                repo.add_pantry(session, item)
+                repo.add_pantry(session, item["name"], item["quantity"], item["unit"])
             st.rerun()
