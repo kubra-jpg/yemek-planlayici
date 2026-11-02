@@ -1,4 +1,4 @@
-from core.matcher import normalize, match_recipe, match_recipes
+from core.matcher import match_recipe, match_recipes, normalize
 
 RECIPE = {
     "id": 1,
@@ -6,7 +6,21 @@ RECIPE = {
     "ingredients": ["yumurta", "domates", "biber"],
 }
 
+RECIPE_WITH_AMOUNTS = {
+    "id": 2,
+    "name": "Omlet",
+    "ingredients": [
+        {"name": "yumurta", "quantity": 3, "unit": "adet"},
+        {"name": "süt", "quantity": 100, "unit": "ml"},
+    ],
+}
 
+
+def missing_names(result):
+    return {m["name"] for m in result["missing"]}
+
+
+# --- normalize ---
 def test_normalize_strips_and_lowercases():
     assert normalize("  Domates ") == "domates"
 
@@ -16,6 +30,7 @@ def test_normalize_turkish_i():
     assert normalize("İNCİR") == "incir"
 
 
+# --- Eşleştirme ---
 def test_full_match():
     result = match_recipe(["yumurta", "domates", "biber"], RECIPE)
     assert result["ratio"] == 1
@@ -25,7 +40,7 @@ def test_full_match():
 def test_partial_match():
     result = match_recipe(["yumurta"], RECIPE)
     assert result["have"] == ["yumurta"]
-    assert set(result["missing"]) == {"domates", "biber"}
+    assert missing_names(result) == {"domates", "biber"}
 
 
 def test_no_match():
@@ -53,16 +68,9 @@ def test_sorted_by_ratio():
     results = match_recipes(["x"], recipes)
     assert results[0]["recipe"]["name"] == "B"
     assert results[1]["recipe"]["name"] == "A"
-RECIPE_WITH_AMOUNTS = {
-    "id": 2,
-    "name": "Omlet",
-    "ingredients": [
-        {"name": "yumurta", "quantity": 3, "unit": "adet"},
-        {"name": "süt", "quantity": 100, "unit": "ml"},
-    ],
-}
 
 
+# --- Miktarlar ---
 def test_enough_quantity():
     result = match_recipe(
         {"yumurta": (6, "adet"), "süt": (1, "l")}, RECIPE_WITH_AMOUNTS
@@ -75,16 +83,26 @@ def test_insufficient_quantity():
     result = match_recipe(
         {"yumurta": (1, "adet"), "süt": (1, "l")}, RECIPE_WITH_AMOUNTS
     )
-    assert result["insufficient"] == ["yumurta"]
+    assert [i["name"] for i in result["insufficient"]] == ["yumurta"]
     assert result["missing"] == []
 
 
 def test_incomparable_units_assumed_enough():
-    # 200 g soğan ile 2 adet soğan karşılaştırılamaz; yetersiz sayılmaz
-    result = match_recipe({"yumurta": (200, "g"), "süt": (1, "l")}, RECIPE_WITH_AMOUNTS)
+    # 200 g ile 3 adet karşılaştırılamaz; yetersiz sayılmaz
+    result = match_recipe(
+        {"yumurta": (200, "g"), "süt": (1, "l")}, RECIPE_WITH_AMOUNTS
+    )
     assert result["insufficient"] == []
 
 
 def test_unknown_quantity_assumed_enough():
     result = match_recipe(["yumurta", "süt"], RECIPE_WITH_AMOUNTS)
-    assert result["insufficient"] == []   
+    assert result["insufficient"] == []
+
+
+def test_missing_carries_quantity():
+    result = match_recipe([], RECIPE_WITH_AMOUNTS)
+    first = result["missing"][0]
+    assert first["name"] == "yumurta"
+    assert first["quantity"] == 3
+    assert first["unit"] == "adet"

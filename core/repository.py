@@ -349,3 +349,11 @@ def import_recipes(session, json_path):
         existing.add(item["name"])
         added += 1
     return added
+def toggle_favorite(session, recipe_id):
+    """Tarifin favori durumunu tersine çevirir, yeni durumu döndürür."""
+    recipe = session.get(Recipe, recipe_id)
+    if recipe is None:
+        return None
+    recipe.is_favorite = not recipe.is_favorite
+    session.flush()
+    return recipe.is_favorite

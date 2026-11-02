@@ -1,10 +1,33 @@
 from core.units import is_comparable, to_base
+
+
 def normalize(text):
     """Malzeme adını karşılaştırmaya hazırlar: boşlukları siler, küçük harfe çevirir."""
     text = text.strip()
     # Türkçe harf tuzağı: Python "I".lower() işlemini "i" yapar, oysa Türkçede "ı" olmalı.
     text = text.replace("I", "ı").replace("İ", "i")
     return text.lower()
+
+
+def _words(name):
+    return set(name.split())
+
+
+def find_in_pantry(name, pantry):
+    """Tarifteki malzemeyi evdeki malzemeler arasında arar.
+
+    Önce birebir eşleşme, bulunamazsa kelime bazlı eşleşme denenir:
+    'mercimek' ile 'kırmızı mercimek' eşleşir (biri diğerinin tüm kelimelerini içerir).
+    Bulunan evdeki malzemenin adını, bulunamazsa None döndürür.
+    """
+    if name in pantry:
+        return name
+    needed = _words(name)
+    for key in pantry:
+        have = _words(key)
+        if have <= needed or needed <= have:
+            return key
+    return None
 
 
 def _enough(pantry_entry, needed_quantity, needed_unit):
@@ -45,13 +68,16 @@ def match_recipe(my_ingredients, recipe):
             name = normalize(item)
             quantity, unit = None, None
 
-        if name not in pantry:
-            missing.append(name)
-        elif _enough(pantry[name], quantity, unit):
+        entry = {"name": name, "quantity": quantity, "unit": unit}
+        pantry_key = find_in_pantry(name, pantry)
+
+        if pantry_key is None:
+            missing.append(entry)
+        elif _enough(pantry[pantry_key], quantity, unit):
             have.append(name)
         else:
             have.append(name)
-            insufficient.append(name)
+            insufficient.append(entry)
 
     total = len(recipe["ingredients"])
     ratio = len(have) / total if total else 0

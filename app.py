@@ -5,6 +5,7 @@ import streamlit as st
 
 from core import repository as repo
 from core.db import get_session, init_db
+from core.filters import SORT_LABELS, filter_recipes, sort_results
 from core.matcher import match_recipes
 from core.units import UNIT_CHOICES, format_amount
 
@@ -90,45 +91,85 @@ with tab_pantry:
 
 # --- Sekme 2: Önerilen tarifler ---
 with tab_recipes:
-    if not pantry:
-        st.info("Önce 'Evdeki malzemeler' sekmesinden malzeme ekle.")
+    # Arama ve filtre çubuğu
+    f1, f2 = st.columns([2, 1])
+    query = f1.text_input(
+        "Ara", placeholder="Tarif ya da malzeme adı (ör. balık, çorba)"
+    )
+    max_time = f2.selectbox(
+        "En fazla süre",
+        [None, 15, 30, 45, 60],
+        format_func=lambda m: "Fark etmez" if m is None else f"{m} dk",
+    )
+    f3, f4, f5 = st.columns(3)
+    only_matching = f3.toggle("Sadece eşleşenler", value=True)
+    favorites_only = f4.toggle("Sadece favoriler")
+    sort_by = f5.selectbox(
+        "Sırala", list(SORT_LABELS), format_func=SORT_LABELS.get
+    )
+
+    filtered = filter_recipes(recipes, query, max_time, favorites_only)
+    results = match_recipes(pantry, filtered)
+    if only_matching:
+        results = [r for r in results if r["ratio"] > 0]
+    results = sort_results(results, sort_by)
+
+    if only_matching and not pantry:
+        st.info(
+            "Evdeki malzemelerine göre öneri için önce malzeme ekle "
+            "ya da 'Sadece eşleşenler' anahtarını kapat."
+        )
+    elif not results:
+        st.info("Bu filtrelere uyan tarif bulunamadı.")
     else:
-               results = [r for r in match_recipes(pantry, recipes) if r["ratio"] > 0]
-    if not results:
-            st.info("Evdeki malzemelerle eşleşen tarif bulunamadı.")
-    else:
-            st.caption(f"{len(results)} tarif bulundu")
+        st.caption(f"{len(results)} tarif bulundu")
+
     for r in results:
-            recipe = r["recipe"]
-            pct = int(r["ratio"] * 100)
-            with st.expander(f"{recipe['name']} — %{pct} eşleşme"):
-                st.write(f"⏱ {recipe['time_min']} dk | 👥 {recipe['servings']} kişilik")
+        recipe = r["recipe"]
+        pct = int(r["ratio"] * 100)
+        star = "⭐ " if recipe["is_favorite"] else ""
+        title = f"{star}{recipe['name']} — %{pct} eşleşme · {recipe['time_min']} dk"
+        is_open = st.session_state.get("open_recipe") == recipe["id"]
 
-                st.write("**Malzemeler:**")
-                for ing in recipe["ingredients"]:
-                    mark = "✅" if ing["name"] in r["have"] else "🛒"
-                    st.write(f"{mark} {ing['label']}")
+        with st.expander(title, expanded=is_open):
+            st.write(f"⏱ {recipe['time_min']} dk | 👥 {recipe['servings']} kişilik")
 
-                if r["insufficient"]:
-                    st.warning(
-                        "Miktarı yetersiz olabilir: "
-                        + ", ".join(
-                            f"{i['name']} ({format_amount(i['quantity'], i['unit'])} gerekiyor)"
-                            for i in r["insufficient"]
-                        )
+            st.write("**Malzemeler:**")
+            for ing in recipe["ingredients"]:
+                mark = "✅" if ing["name"] in r["have"] else "🛒"
+                st.write(f"{mark} {ing['label']}")
+
+            if r["insufficient"]:
+                st.warning(
+                    "Miktarı yetersiz olabilir: "
+                    + ", ".join(
+                        f"{i['name']} ({format_amount(i['quantity'], i['unit'])} gerekiyor)"
+                        for i in r["insufficient"]
                     )
+                )
 
-                st.write("**Yapılışı:**")
-                for n, step in enumerate(recipe["steps"], start=1):
-                    st.write(f"{n}. {step}")
+            st.write("**Yapılışı:**")
+            for n, step in enumerate(recipe["steps"], start=1):
+                st.write(f"{n}. {step}")
 
-                if r["missing"] and st.button(
-                    "Eksikleri listeye ekle", key=f"add_{recipe['id']}"
-                ):
-                    with get_session() as session:
-                        added = repo.add_shopping_many(session, r["missing"])
-                    st.toast(f"{len(added)} malzeme alışveriş listesine eklendi!")
-                    st.rerun()
+            b1, b2 = st.columns(2)
+            fav_label = (
+                "★ Favorilerden çıkar" if recipe["is_favorite"] else "☆ Favorilere ekle"
+            )
+            if b1.button(fav_label, key=f"fav_{recipe['id']}"):
+                with get_session() as session:
+                    repo.toggle_favorite(session, recipe["id"])
+                st.session_state["open_recipe"] = recipe["id"]
+                st.rerun()
+
+            if r["missing"] and b2.button(
+                "Eksikleri listeye ekle", key=f"add_{recipe['id']}"
+            ):
+                with get_session() as session:
+                    added = repo.add_shopping_many(session, r["missing"])
+                st.session_state["open_recipe"] = recipe["id"]
+                st.toast(f"{len(added)} malzeme alışveriş listesine eklendi!")
+                st.rerun()
 
 # --- Sekme 3: Alışveriş listesi ---
 with tab_shopping:
