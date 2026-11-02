@@ -241,3 +241,95 @@ def seed_recipes_if_empty(session, json_path):
 
     session.flush()
     return len(data)
+
+# --- Tarif yönetimi ---
+def get_recipe(session, recipe_id):
+    recipe = session.get(Recipe, recipe_id)
+    return recipe_to_dict(recipe) if recipe else None
+
+
+def _clean_ingredients(rows):
+    """Tablodan gelen malzeme satırlarını temizler.
+
+    Boş satırları ve tekrar eden malzemeleri atar, geçersiz miktarı None yapar.
+    (ad, miktar, birim) üçlülerinden oluşan liste döndürür.
+    """
+    cleaned, seen = [], set()
+    for row in rows:
+        raw_name = row.get("name")
+        if not isinstance(raw_name, str):
+            continue
+        ing_name = normalize(raw_name)
+        if not ing_name or ing_name in seen:
+            continue
+        seen.add(ing_name)
+
+        quantity = row.get("quantity")
+        try:
+            quantity = float(quantity) if quantity is not None else None
+        except (TypeError, ValueError):
+            quantity = None
+        # Boş hücre NaN gelir; NaN kendisine eşit olmayan tek sayıdır
+        if quantity is not None and (quantity != quantity or quantity <= 0):
+            quantity = None
+
+        unit = row.get("unit")
+        unit = unit.strip() if isinstance(unit, str) and unit.strip() else None
+
+        cleaned.append((ing_name, quantity, unit))
+    return cleaned
+
+
+def save_recipe(session, data, recipe_id=None):
+    """Yeni tarif oluşturur (recipe_id=None) ya da var olanı günceller.
+
+    Tarifin id'sini döndürür. Veri hatalıysa ValueError fırlatır.
+    """
+    name = (data.get("name") or "").strip()
+    if not name:
+        raise ValueError("Tarif adı boş olamaz.")
+
+    ingredients = _clean_ingredients(data.get("ingredients") or [])
+    if not ingredients:
+        raise ValueError("En az bir malzeme eklemelisin.")
+
+    same_name = session.scalar(select(Recipe).where(Recipe.name == name))
+    if same_name is not None and same_name.id != recipe_id:
+        raise ValueError(f"'{name}' adında bir tarif zaten var.")
+
+    if recipe_id is None:
+        recipe = Recipe(name=name)
+        session.add(recipe)
+    else:
+        recipe = session.get(Recipe, recipe_id)
+        if recipe is None:
+            raise ValueError("Tarif bulunamadı.")
+        recipe.name = name
+
+    recipe.time_min = int(data.get("time_min") or 0)
+    recipe.servings = int(data.get("servings") or 1)
+
+    steps = data.get("steps") or ""
+    if isinstance(steps, list):
+        steps = "\n".join(steps)
+    recipe.steps = "\n".join(s.strip() for s in steps.split("\n") if s.strip())
+
+    # Eski malzemeleri silip yenilerini ekle
+    recipe.ingredients.clear()
+    session.flush()
+    for ing_name, quantity, unit in ingredients:
+        ingredient = get_or_create_ingredient(session, ing_name)
+        recipe.ingredients.append(
+            RecipeIngredient(ingredient=ingredient, quantity=quantity, unit=unit)
+        )
+    session.flush()
+    return recipe.id
+
+
+def delete_recipe(session, recipe_id):
+    recipe = session.get(Recipe, recipe_id)
+    if recipe is None:
+        return False
+    session.delete(recipe)
+    session.flush()
+    return True

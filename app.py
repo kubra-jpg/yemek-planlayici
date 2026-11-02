@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import pandas as pd
 import streamlit as st
 
 from core import repository as repo
@@ -22,6 +23,10 @@ def setup_database():
 
 setup_database()
 
+# Tarif formunun her kayıttan sonra temiz açılması için sürüm sayacı
+if "form_version" not in st.session_state:
+    st.session_state.form_version = 0
+
 # --- Veritabanından güncel verileri oku ---
 with get_session() as session:
     pantry = repo.pantry_as_dict(session)
@@ -31,8 +36,8 @@ with get_session() as session:
 
 st.title("🍳 Yemek Planlayıcı")
 
-tab_pantry, tab_recipes, tab_shopping = st.tabs(
-    ["Evdeki malzemeler", "Önerilen tarifler", "Alışveriş listesi"]
+tab_pantry, tab_recipes, tab_shopping, tab_manage = st.tabs(
+    ["Evdeki malzemeler", "Önerilen tarifler", "Alışveriş listesi", "Tarifleri yönet"]
 )
 
 # --- Sekme 1: Evdeki malzemeler ---
@@ -112,6 +117,7 @@ with tab_recipes:
                 st.write("**Yapılışı:**")
                 for n, step in enumerate(recipe["steps"], start=1):
                     st.write(f"{n}. {step}")
+
                 if r["missing"] and st.button(
                     "Eksikleri listeye ekle", key=f"add_{recipe['id']}"
                 ):
@@ -132,3 +138,106 @@ with tab_shopping:
             with get_session() as session:
                 repo.add_pantry(session, item["name"], item["quantity"], item["unit"])
             st.rerun()
+
+# --- Sekme 4: Tarifleri yönet ---
+with tab_manage:
+    # Kaydet/sil sonrası hangi tarifin seçili olacağı (seçim kutusu çizilmeden önce ayarlanmalı)
+    if "manage_next" in st.session_state:
+        st.session_state["manage_choice"] = st.session_state.pop("manage_next")
+
+    recipe_names = {r["id"]: r["name"] for r in recipes}
+    choice = st.selectbox(
+        "Düzenlenecek tarif",
+        [None] + list(recipe_names),
+        format_func=lambda rid: "➕ Yeni tarif" if rid is None else recipe_names[rid],
+        key="manage_choice",
+    )
+
+    if choice is None:
+        current = {
+            "id": None,
+            "name": "",
+            "time_min": 15,
+            "servings": 2,
+            "ingredients": [],
+            "steps": [],
+        }
+    else:
+        current = next(r for r in recipes if r["id"] == choice)
+
+    form_key = f"recipe_form_{current['id'] or 'new'}_{st.session_state.form_version}"
+
+    with st.form(form_key):
+        name = st.text_input("Tarif adı", value=current["name"])
+        c1, c2 = st.columns(2)
+        time_min = c1.number_input(
+            "Hazırlama süresi (dk)", min_value=0, step=5, value=int(current["time_min"])
+        )
+        servings = c2.number_input(
+            "Kaç kişilik", min_value=1, step=1, value=int(current["servings"])
+        )
+
+        st.write("**Malzemeler** (satır eklemek için tablonun altındaki + işaretini kullan)")
+        ingredient_table = pd.DataFrame(
+            [
+                {"name": i["name"], "quantity": i["quantity"], "unit": i["unit"]}
+                for i in current["ingredients"]
+            ],
+            columns=["name", "quantity", "unit"],
+        )
+        edited = st.data_editor(
+            ingredient_table,
+            num_rows="dynamic",
+            use_container_width=True,
+            column_config={
+                "name": st.column_config.TextColumn("Malzeme"),
+                "quantity": st.column_config.NumberColumn(
+                    "Miktar", min_value=0.0, step=0.5
+                ),
+                "unit": st.column_config.SelectboxColumn("Birim", options=UNIT_CHOICES),
+            },
+            key=f"ingredients_{form_key}",
+        )
+
+        steps_text = st.text_area(
+            "Yapılışı (her satıra bir adım)",
+            value="\n".join(current["steps"]),
+            height=150,
+        )
+        save = st.form_submit_button("Kaydet")
+
+    if save:
+        data = {
+            "name": name,
+            "time_min": time_min,
+            "servings": servings,
+            "ingredients": edited.to_dict("records"),
+            "steps": steps_text,
+        }
+        try:
+            with get_session() as session:
+                saved_id = repo.save_recipe(session, data, current["id"])
+        except ValueError as error:
+            st.error(str(error))
+        else:
+            st.session_state.form_version += 1
+            st.session_state["manage_next"] = saved_id
+            st.toast("Tarif kaydedildi!")
+            st.rerun()
+
+    if current["id"] is not None:
+        with st.expander("🗑 Tarifi sil"):
+            st.warning("Bu işlem geri alınamaz.")
+            confirm = st.checkbox(
+                f"Evet, '{current['name']}' tarifini silmek istiyorum",
+                key=f"confirm_{current['id']}",
+            )
+            if st.button(
+                "Tarifi sil", disabled=not confirm, key=f"delete_{current['id']}"
+            ):
+                with get_session() as session:
+                    repo.delete_recipe(session, current["id"])
+                st.session_state.form_version += 1
+                st.session_state["manage_next"] = None
+                st.toast("Tarif silindi.")
+                st.rerun()
