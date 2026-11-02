@@ -5,9 +5,10 @@ import streamlit as st
 
 from core import repository as repo
 from core.db import get_session, init_db
-from core.filters import SORT_LABELS, filter_recipes, sort_results
+from core.filters import SORT_LABELS, filter_recipes, sort_results, turkish_key
 from core.matcher import match_recipes
 from core.units import UNIT_CHOICES, format_amount
+from core.staples import STAPLE_CANDIDATES
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -34,6 +35,8 @@ with get_session() as session:
     pantry_items = repo.list_pantry_items(session)
     recipes = repo.list_recipes(session)
     shopping = repo.list_shopping_items(session)
+    staples = repo.list_staples(session)
+    all_ingredients = repo.list_all_ingredient_names(session)
 
 st.title("🍳 Yemek Planlayıcı")
 
@@ -54,6 +57,24 @@ with tab_pantry:
         with get_session() as session:
             repo.add_pantry_many(session, new_item)
         st.rerun()
+
+    with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
+        st.caption(
+            "Bu malzemeler her zaman evde var sayılır: eşleşme oranına katılmaz, "
+            "eksik görünmez ve alışveriş listesine eklenmez."
+        )
+        staple_options = sorted(set(STAPLE_CANDIDATES) | set(staples), key=turkish_key)
+        chosen_staples = st.multiselect(
+            "Temel malzemeler",
+            staple_options,
+            default=staples,
+            placeholder="ör. tuz, yağ, şeker",
+            label_visibility="collapsed",
+        )
+        if sorted(chosen_staples) != sorted(staples):
+            with get_session() as session:
+                repo.set_staples(session, chosen_staples)
+            st.rerun()
 
     if not pantry_items:
         st.write("Henüz malzeme eklemedin.")
@@ -109,9 +130,12 @@ with tab_recipes:
     )
 
     filtered = filter_recipes(recipes, query, max_time, favorites_only)
-    results = match_recipes(pantry, filtered)
+    all_results = match_recipes(pantry, filtered, staples)
     if only_matching:
-        results = [r for r in results if r["ratio"] > 0]
+        results = [r for r in all_results if r["ratio"] > 0 and r["have"]]
+    else:
+        results = all_results
+    hidden = len(all_results) - len(results)
     results = sort_results(results, sort_by)
 
     if only_matching and not pantry:
@@ -123,6 +147,11 @@ with tab_recipes:
         st.info("Bu filtrelere uyan tarif bulunamadı.")
     else:
         st.caption(f"{len(results)} tarif bulundu")
+    if hidden and pantry:
+        st.caption(
+            f"Evdeki malzemelerinle eşleşmeyen {hidden} tarif gizlendi. "
+            "Görmek için 'Sadece eşleşenler' anahtarını kapat."
+        )
 
     for r in results:
         recipe = r["recipe"]
@@ -136,7 +165,12 @@ with tab_recipes:
 
             st.write("**Malzemeler:**")
             for ing in recipe["ingredients"]:
-                mark = "✅" if ing["name"] in r["have"] else "🛒"
+                if ing["name"] in r["staples"]:
+                    mark = "🧂"
+                elif ing["name"] in r["have"]:
+                    mark = "✅"
+                else:
+                    mark = "🛒"
                 st.write(f"{mark} {ing['label']}")
 
             if r["insufficient"]:

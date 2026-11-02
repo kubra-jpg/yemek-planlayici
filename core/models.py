@@ -65,3 +65,13 @@ class RecipeIngredient(Base):
 
     recipe: Mapped[Recipe] = relationship(back_populates="ingredients")
     ingredient: Mapped[Ingredient] = relationship()
+    
+
+class Staple(Base):
+    """Her zaman evde var sayılan temel malzeme (tuz, yağ gibi)."""
+    __tablename__ = "staples"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    ingredient_id: Mapped[int] = mapped_column(ForeignKey("ingredients.id"), unique=True)
+
+    ingredient: Mapped[Ingredient] = relationship()

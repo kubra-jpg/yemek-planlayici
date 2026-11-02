@@ -4,7 +4,7 @@ from pathlib import Path
 from sqlalchemy import select
 
 from core.matcher import normalize
-from core.models import Ingredient, PantryItem, Recipe, RecipeIngredient, ShoppingItem
+from core.models import Ingredient, PantryItem, Recipe, RecipeIngredient, ShoppingItem, Staple
 from core.units import format_amount
 
 
@@ -357,3 +357,22 @@ def toggle_favorite(session, recipe_id):
     recipe.is_favorite = not recipe.is_favorite
     session.flush()
     return recipe.is_favorite
+# --- Temel malzemeler ---
+def list_staples(session):
+    return _list_names(session, Staple)
+
+
+def set_staples(session, names):
+    """Temel malzeme listesini verilen adlarla değiştirir."""
+    for item in session.scalars(select(Staple)).all():
+        session.delete(item)
+    session.flush()
+    for name in {normalize(n) for n in names if n and n.strip()}:
+        ingredient = get_or_create_ingredient(session, name)
+        session.add(Staple(ingredient_id=ingredient.id))
+    session.flush()
+
+
+def list_all_ingredient_names(session):
+    """Veritabanındaki tüm malzeme adları (seçim listeleri için)."""
+    return list(session.scalars(select(Ingredient.name).order_by(Ingredient.name)))

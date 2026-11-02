@@ -46,18 +46,20 @@ def _enough(pantry_entry, needed_quantity, needed_unit):
     return to_base(have_quantity, have_unit) >= to_base(needed_quantity, needed_unit)
 
 
-def match_recipe(my_ingredients, recipe):
+def match_recipe(my_ingredients, recipe, staples=()):
     """Tek bir tarifi, evdeki malzemelerle karşılaştırır.
 
-    my_ingredients: malzeme adları listesi ya da
-                    {ad: (miktar, birim)} biçiminde sözlük.
+    my_ingredients: malzeme adları listesi ya da {ad: (miktar, birim)} sözlüğü.
+    staples: her zaman var sayılan temel malzemeler (tuz, yağ...). Bunlar
+             eşleşme oranına katılmaz, eksik sayılmaz.
     """
     if isinstance(my_ingredients, dict):
         pantry = {normalize(k): v for k, v in my_ingredients.items()}
     else:
         pantry = {normalize(item): None for item in my_ingredients}
+    staple_set = {normalize(s): None for s in staples}
 
-    have, missing, insufficient = [], [], []
+    have, missing, insufficient, staples_used = [], [], [], []
 
     for item in recipe["ingredients"]:
         # Malzeme ya düz metin ya da {"name":..., "quantity":..., "unit":...}
@@ -67,6 +69,10 @@ def match_recipe(my_ingredients, recipe):
         else:
             name = normalize(item)
             quantity, unit = None, None
+
+        if find_in_pantry(name, staple_set) is not None:
+            staples_used.append(name)
+            continue
 
         entry = {"name": name, "quantity": quantity, "unit": unit}
         pantry_key = find_in_pantry(name, pantry)
@@ -79,19 +85,20 @@ def match_recipe(my_ingredients, recipe):
             have.append(name)
             insufficient.append(entry)
 
-    total = len(recipe["ingredients"])
-    ratio = len(have) / total if total else 0
+    counted = len(have) + len(missing)
+    ratio = len(have) / counted if counted else 1.0
 
     return {
         "recipe": recipe,
         "have": have,
         "missing": missing,
         "insufficient": insufficient,  # var ama yetersiz
+        "staples": staples_used,  # temel malzeme olarak sayılanlar
         "ratio": ratio,
     }
 
 
-def match_recipes(my_ingredients, recipes):
+def match_recipes(my_ingredients, recipes, staples=()):
     """Tüm tarifleri eşleştirir ve eşleşme oranı yüksek olandan düşüğe sıralar."""
-    results = [match_recipe(my_ingredients, recipe) for recipe in recipes]
+    results = [match_recipe(my_ingredients, recipe, staples) for recipe in recipes]
     return sorted(results, key=lambda result: result["ratio"], reverse=True)
