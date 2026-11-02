@@ -2,6 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+from core.catalog import catalog_names
 
 from core import repository as repo
 from core.db import get_session, init_db
@@ -46,19 +47,26 @@ tab_pantry, tab_recipes, tab_shopping, tab_manage = st.tabs(
 
 # --- Sekme 1: Evdeki malzemeler ---
 with tab_pantry:
-    with st.form("add_pantry_form", clear_on_submit=True):
+      catalog_options = sorted(set(catalog_names()) | set(all_ingredients), key=turkish_key)
+with st.form("add_pantry_form", clear_on_submit=True):
+        picked = st.multiselect(
+            "Listeden seç",
+            [n for n in catalog_options if n not in pantry],
+            placeholder="Yazarak ara: ör. mercimek, tavuk, süt",
+        )
         new_item = st.text_input(
-            "Malzeme ekle",
+            "Listede yoksa elle yaz",
             placeholder="domates, soğan, yumurta",
             help="Birden fazla malzemeyi virgülle ayırabilirsin.",
         )
         submitted = st.form_submit_button("Ekle")
-    if submitted:
+if submitted:
+        text = ", ".join(picked + ([new_item] if new_item.strip() else []))
         with get_session() as session:
-            repo.add_pantry_many(session, new_item)
+            repo.add_pantry_many(session, text)
         st.rerun()
 
-    with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
+with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
         st.caption(
             "Bu malzemeler her zaman evde var sayılır: eşleşme oranına katılmaz, "
             "eksik görünmez ve alışveriş listesine eklenmez."
@@ -76,10 +84,10 @@ with tab_pantry:
                 repo.set_staples(session, chosen_staples)
             st.rerun()
 
-    if not pantry_items:
+if not pantry_items:
         st.write("Henüz malzeme eklemedin.")
 
-    for item in pantry_items:
+for item in pantry_items:
         col1, col2, col3, col4 = st.columns([3, 1.2, 1.5, 1])
         col1.write(item["name"])
         quantity = col2.number_input(
