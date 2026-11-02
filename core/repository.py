@@ -333,3 +333,19 @@ def delete_recipe(session, recipe_id):
     session.delete(recipe)
     session.flush()
     return True
+
+def import_recipes(session, json_path):
+    """Dosyadaki tariflerden veritabanında olmayanları ekler; var olanlara dokunmaz.
+
+    Eklenen tarif sayısını döndürür.
+    """
+    data = json.loads(Path(json_path).read_text(encoding="utf-8"))
+    existing = set(session.scalars(select(Recipe.name)))
+    added = 0
+    for item in data:
+        if item["name"] in existing:
+            continue
+        save_recipe(session, item)
+        existing.add(item["name"])
+        added += 1
+    return added

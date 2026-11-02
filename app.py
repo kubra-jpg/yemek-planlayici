@@ -93,8 +93,12 @@ with tab_recipes:
     if not pantry:
         st.info("Önce 'Evdeki malzemeler' sekmesinden malzeme ekle.")
     else:
-        results = match_recipes(pantry, recipes)
-        for r in results:
+               results = [r for r in match_recipes(pantry, recipes) if r["ratio"] > 0]
+    if not results:
+            st.info("Evdeki malzemelerle eşleşen tarif bulunamadı.")
+    else:
+            st.caption(f"{len(results)} tarif bulundu")
+    for r in results:
             recipe = r["recipe"]
             pct = int(r["ratio"] * 100)
             with st.expander(f"{recipe['name']} — %{pct} eşleşme"):

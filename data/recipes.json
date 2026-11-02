@@ -178,5 +178,791 @@
       "Dış yüzeyleri tereyağıyla yağla.",
       "Tost makinesinde ya da tavada her iki tarafı kızarana kadar pişir."
     ]
+  },
+  {
+    "id": 11,
+    "name": "Fırında balık",
+    "time_min": 35,
+    "servings": 2,
+    "ingredients": [
+      {"name": "balık", "quantity": 500, "unit": "g"},
+      {"name": "patates", "quantity": 2, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Patates ve soğanı halka halka doğrayıp fırın kabına diz.",
+      "Balığı üzerine yerleştir, zeytinyağı, limon suyu ve tuz gezdir.",
+      "200 derecede önceden ısıtılmış fırında 25-30 dakika pişir."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tavada balık",
+    "time_min": 20,
+    "servings": 2,
+    "ingredients": [
+      {"name": "balık", "quantity": 500, "unit": "g"},
+      {"name": "mısır unu", "quantity": 4, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 150, "unit": "ml"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Balıkları yıkayıp kurula, tuzla.",
+      "Mısır ununa bulayıp fazlasını silkele.",
+      "Kızgın yağda her iki tarafı da kızarana kadar pişir.",
+      "Limonla servis et."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Balık buğulama",
+    "time_min": 30,
+    "servings": 2,
+    "ingredients": [
+      {"name": "balık", "quantity": 500, "unit": "g"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "biber", "quantity": 2, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "sarımsak", "quantity": 2, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğan, sarımsak ve biberi tencerenin dibine diz.",
+      "Balık parçalarını yerleştir, üzerine doğranmış domates koy.",
+      "Zeytinyağı, tuz ve yarım su bardağı su ekle.",
+      "Kapağı kapalı, kısık ateşte 20 dakika pişir."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ton balıklı salata",
+    "time_min": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "ton balığı", "quantity": 1, "unit": "paket"},
+      {"name": "marul", "quantity": 1, "unit": "adet"},
+      {"name": "domates", "quantity": 1, "unit": "adet"},
+      {"name": "mısır", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı"}
+    ],
+    "steps": [
+      "Marulu ve domatesi doğra.",
+      "Süzülmüş ton balığı ve mısırı ekle.",
+      "Zeytinyağı ve limon suyuyla karıştır."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ton balıklı makarna",
+    "time_min": 20,
+    "servings": 2,
+    "ingredients": [
+      {"name": "makarna", "quantity": 250, "unit": "g"},
+      {"name": "ton balığı", "quantity": 1, "unit": "paket"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "sarımsak", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Makarnayı tuzlu suda haşla.",
+      "Sarımsağı zeytinyağında kavur, rendelenmiş domatesi ekleyip 5 dakika pişir.",
+      "Ton balığını ekleyip karıştır, makarnayla birleştir."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tavuk sote",
+    "time_min": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "tavuk göğsü", "quantity": 500, "unit": "g"},
+      {"name": "biber", "quantity": 2, "unit": "adet"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Tavuğu kuşbaşı doğrayıp yağda suyunu salıp çekene kadar sotele.",
+      "Soğan ve biberi ekleyip 5 dakika kavur.",
+      "Doğranmış domatesi ve tuzu ekle, 10 dakika pişir."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Fırında tavuk but",
+    "time_min": 50,
+    "servings": 3,
+    "ingredients": [
+      {"name": "tavuk but", "quantity": 1, "unit": "kg"},
+      {"name": "patates", "quantity": 3, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Salça, yağ ve tuzu karıştırıp tavuklara sür.",
+      "Patatesleri iri doğrayıp tavuklarla birlikte fırın kabına diz.",
+      "200 derecede önceden ısıtılmış fırında 45 dakika pişir."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Tavuklu pilav",
+    "time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "pirinç", "quantity": 2, "unit": "su bardağı"},
+      {"name": "tavuk göğsü", "quantity": 300, "unit": "g"},
+      {"name": "tereyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Tavuğu haşla, suyunu ayır ve didikle.",
+      "Pirinci tereyağında kavur.",
+      "3 su bardağı tavuk suyu ve tuz ekleyip suyunu çekene kadar pişir.",
+      "Didiklenmiş tavuğu üzerine ekle, 10 dakika demlendir."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Tavuk çorbası",
+    "time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "tavuk göğsü", "quantity": 250, "unit": "g"},
+      {"name": "şehriye", "quantity": 0.5, "unit": "su bardağı"},
+      {"name": "havuç", "quantity": 1, "unit": "adet"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "tereyağı", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Tavuğu 1.5 litre suda haşla, didikle.",
+      "Suya rendelenmiş havucu ve şehriyeyi ekle, 10 dakika pişir.",
+      "Tavuğu geri ekle, tereyağı, tuz ve limon suyuyla tatlandır."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Kremalı mantarlı tavuk",
+    "time_min": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "tavuk göğsü", "quantity": 500, "unit": "g"},
+      {"name": "mantar", "quantity": 250, "unit": "g"},
+      {"name": "krema", "quantity": 200, "unit": "ml"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Tavuğu küçük doğrayıp yağda sotele.",
+      "Soğan ve dilimlenmiş mantarı ekleyip mantarlar suyunu çekene kadar pişir.",
+      "Kremayı ve tuzu ekle, 5 dakika kısık ateşte koyulaştır."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Köfte",
+    "time_min": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "kıyma", "quantity": 500, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "ekmek", "quantity": 2, "unit": "dilim"},
+      {"name": "yumurta", "quantity": 1, "unit": "adet"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"}
+    ],
+    "steps": [
+      "Rendelenmiş soğanı, ıslatıp sıkılmış ekmeği, yumurtayı ve tuzu kıymaya ekle.",
+      "İyice yoğurup 15 dakika dinlendir.",
+      "Şekil verip az yağlı tavada her iki tarafını pişir."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Kıymalı makarna",
+    "time_min": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "makarna", "quantity": 400, "unit": "g"},
+      {"name": "kıyma", "quantity": 250, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Makarnayı tuzlu suda haşla.",
+      "Soğanı yağda kavur, kıymayı ekleyip suyunu çekene kadar pişir.",
+      "Salçayı ve yarım su bardağı suyu ekle, 5 dakika pişir.",
+      "Sosu makarnayla karıştır."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Karnıyarık",
+    "time_min": 60,
+    "servings": 4,
+    "ingredients": [
+      {"name": "patlıcan", "quantity": 4, "unit": "adet"},
+      {"name": "kıyma", "quantity": 250, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "biber", "quantity": 2, "unit": "adet"},
+      {"name": "yağ", "quantity": 200, "unit": "ml"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Patlıcanları alacalı soyup yağda kızart.",
+      "Soğanı kavur, kıymayı ve doğranmış domatesi ekleyip harç hazırla.",
+      "Patlıcanların ortasını yarıp harcı doldur, üzerine biber koy.",
+      "Biraz su ekleyip 180 derece fırında 25 dakika pişir."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Etli nohut",
+    "time_min": 70,
+    "servings": 4,
+    "ingredients": [
+      {"name": "nohut", "quantity": 2, "unit": "su bardağı"},
+      {"name": "kuşbaşı et", "quantity": 250, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Nohudu bir gece önceden ıslat ve haşla.",
+      "Eti yağda suyunu çekene kadar kavur, soğanı ekle.",
+      "Salçayı ekle, nohut ve 3 su bardağı sıcak suyla 40 dakika pişir."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Et sote",
+    "time_min": 50,
+    "servings": 3,
+    "ingredients": [
+      {"name": "kuşbaşı et", "quantity": 500, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "biber", "quantity": 2, "unit": "adet"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Eti yağda suyunu salıp çekene kadar kavur.",
+      "Soğan ve biberi ekleyip 5 dakika kavur.",
+      "Domatesi ve bir su bardağı suyu ekle, et yumuşayana kadar kısık ateşte pişir."
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Kıymalı ıspanak",
+    "time_min": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "ıspanak", "quantity": 1, "unit": "kg"},
+      {"name": "kıyma", "quantity": 150, "unit": "g"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "pirinç", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğanı yağda kavur, kıymayı ekleyip pişir.",
+      "Salçayı ekle, yıkanıp doğranmış ıspanağı ve pirinci ilave et.",
+      "Yarım su bardağı su ve tuzla 15 dakika pişir."
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Kuru fasulye",
+    "time_min": 90,
+    "servings": 4,
+    "ingredients": [
+      {"name": "kuru fasulye", "quantity": 2, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Fasulyeyi bir gece önceden ıslat, ertesi gün haşla.",
+      "Soğanı yağda kavur, salçayı ekle.",
+      "Fasulye ve 3 su bardağı sıcak suyu ekle, kısık ateşte 40 dakika pişir."
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Nohut yemeği",
+    "time_min": 60,
+    "servings": 4,
+    "ingredients": [
+      {"name": "nohut", "quantity": 2, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Nohudu bir gece önceden ıslat ve haşla.",
+      "Soğanı yağda kavur, salçayı ekle.",
+      "Nohut ve 2 su bardağı sıcak suyu ekleyip 25 dakika pişir."
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Yeşil mercimek yemeği",
+    "time_min": 45,
+    "servings": 4,
+    "ingredients": [
+      {"name": "yeşil mercimek", "quantity": 1, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "bulgur", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Mercimeği 15 dakika haşla, süz.",
+      "Soğanı yağda kavur, salçayı ekle.",
+      "Mercimek, bulgur ve 3 su bardağı sıcak suyu ekleyip 20 dakika pişir."
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Bulgur pilavı",
+    "time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "bulgur", "quantity": 2, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "biber", "quantity": 1, "unit": "adet"},
+      {"name": "domates", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğan ve biberi yağda kavur, salça ve domatesi ekle.",
+      "Bulguru ekleyip 2 dakika kavur.",
+      "3 su bardağı sıcak su ve tuz ekle, suyunu çekene kadar pişir, 10 dakika demlendir."
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Mercimek köftesi",
+    "time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "kırmızı mercimek", "quantity": 1, "unit": "su bardağı"},
+      {"name": "ince bulgur", "quantity": 1, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "maydanoz", "quantity": 1, "unit": "demet"},
+      {"name": "zeytinyağı", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Mercimeği 2.5 su bardağı suyla dağılana kadar haşla, bulguru ekleyip ocaktan al ve demlendir.",
+      "Soğanı zeytinyağında kavur, salçayı ekle.",
+      "Hepsini ince doğranmış maydanoz ve tuzla yoğur, şekil ver."
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Zeytinyağlı taze fasulye",
+    "time_min": 45,
+    "servings": 4,
+    "ingredients": [
+      {"name": "taze fasulye", "quantity": 500, "unit": "g"},
+      {"name": "domates", "quantity": 2, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 4, "unit": "yemek kaşığı"},
+      {"name": "şeker", "quantity": 1, "unit": "çay kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğanı zeytinyağında kavur.",
+      "Ayıklanmış fasulyeyi ve doğranmış domatesi ekle.",
+      "Şeker, tuz ve yarım su bardağı suyla kısık ateşte 35 dakika pişir. Soğuk servis et."
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Yumurtalı ıspanak",
+    "time_min": 20,
+    "servings": 2,
+    "ingredients": [
+      {"name": "ıspanak", "quantity": 500, "unit": "g"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğanı yağda kavur, doğranmış ıspanağı ekle.",
+      "Ispanak sönünce tuzunu ekle.",
+      "Yumurtaları üzerine kırıp kapağı kapalı pişir."
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Zeytinyağlı pırasa",
+    "time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "pırasa", "quantity": 1, "unit": "kg"},
+      {"name": "havuç", "quantity": 1, "unit": "adet"},
+      {"name": "pirinç", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 4, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Pırasayı ve havucu doğrayıp zeytinyağında 5 dakika kavur.",
+      "Pirinç, tuz ve bir su bardağı su ekle.",
+      "Kısık ateşte 25 dakika pişir, limon suyu ekle."
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Kabak mücveri",
+    "time_min": 30,
+    "servings": 3,
+    "ingredients": [
+      {"name": "kabak", "quantity": 3, "unit": "adet"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "un", "quantity": 4, "unit": "yemek kaşığı"},
+      {"name": "peynir", "quantity": 100, "unit": "g"},
+      {"name": "dereotu", "quantity": 1, "unit": "demet"},
+      {"name": "yağ", "quantity": 100, "unit": "ml"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Kabakları rendele, tuzlayıp suyunu sık.",
+      "Yumurta, un, ezilmiş peynir ve doğranmış dereotuyla karıştır.",
+      "Kaşıkla kızgın yağa döküp her iki tarafını kızart."
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Mantar sote",
+    "time_min": 15,
+    "servings": 2,
+    "ingredients": [
+      {"name": "mantar", "quantity": 400, "unit": "g"},
+      {"name": "tereyağı", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "sarımsak", "quantity": 2, "unit": "adet"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Mantarları dilimle.",
+      "Tereyağında sarımsakla birlikte suyunu çekene kadar yüksek ateşte sotele.",
+      "Tuzunu ekleyip sıcak servis et."
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Patatesli yumurta",
+    "time_min": 25,
+    "servings": 2,
+    "ingredients": [
+      {"name": "patates", "quantity": 3, "unit": "adet"},
+      {"name": "yumurta", "quantity": 3, "unit": "adet"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "yağ", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Patatesleri küp doğrayıp yağda yumuşayana kadar kızart.",
+      "Soğanı ekleyip 3 dakika kavur.",
+      "Yumurtaları kırıp tuzla, pişene kadar karıştır."
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ezogelin çorbası",
+    "time_min": 40,
+    "servings": 4,
+    "ingredients": [
+      {"name": "kırmızı mercimek", "quantity": 1, "unit": "su bardağı"},
+      {"name": "bulgur", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "pirinç", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "salça", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "kuru nane", "quantity": 1, "unit": "tatlı kaşığı"},
+      {"name": "yağ", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Soğanı yağda kavur, salçayı ekle.",
+      "Mercimek, bulgur, pirinç ve 1.5 litre suyu ekle.",
+      "30 dakika pişir, nane ve tuzla tatlandır."
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Domates çorbası",
+    "time_min": 25,
+    "servings": 4,
+    "ingredients": [
+      {"name": "domates", "quantity": 5, "unit": "adet"},
+      {"name": "un", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tereyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "süt", "quantity": 200, "unit": "ml"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Unu tereyağında kokusu çıkana kadar kavur.",
+      "Rendelenmiş domatesi ve 1 litre suyu ekleyip 15 dakika pişir.",
+      "Sütü ve tuzu ekle, bir taşım kaynat."
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Yayla çorbası",
+    "time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "yoğurt", "quantity": 500, "unit": "g"},
+      {"name": "pirinç", "quantity": 0.5, "unit": "su bardağı"},
+      {"name": "yumurta", "quantity": 1, "unit": "adet"},
+      {"name": "un", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "kuru nane", "quantity": 1, "unit": "tatlı kaşığı"},
+      {"name": "tereyağı", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Pirinci 1 litre suda yumuşayana kadar haşla.",
+      "Yoğurt, yumurta ve unu çırp, sıcak sudan azar azar ekleyerek ılıştır.",
+      "Karışımı tencereye ekleyip sürekli karıştırarak kaynat.",
+      "Tereyağında naneyi kızdırıp üzerine gezdir."
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Mantar çorbası",
+    "time_min": 30,
+    "servings": 4,
+    "ingredients": [
+      {"name": "mantar", "quantity": 300, "unit": "g"},
+      {"name": "un", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tereyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "süt", "quantity": 300, "unit": "ml"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Doğranmış mantarı tereyağında sotele.",
+      "Unu ekleyip 2 dakika kavur.",
+      "1 litre su ekleyip 15 dakika pişir, sütü ve tuzu ekleyip kaynat."
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Sucuklu yumurta",
+    "time_min": 10,
+    "servings": 1,
+    "ingredients": [
+      {"name": "sucuk", "quantity": 80, "unit": "g"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "yağ", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Sucuğu dilimleyip az yağda iki tarafını çevir.",
+      "Yumurtaları kırıp beyazı pişene kadar pişir."
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Haşlanmış yumurta",
+    "time_min": 10,
+    "servings": 1,
+    "ingredients": [
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Yumurtaları kaynar suya koy.",
+      "Kayısı kıvamı için 6, katı için 9 dakika haşla.",
+      "Soğuk suya alıp soy, tuzla servis et."
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Yumurtalı ekmek",
+    "time_min": 10,
+    "servings": 2,
+    "ingredients": [
+      {"name": "ekmek", "quantity": 4, "unit": "dilim"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "süt", "quantity": 50, "unit": "ml"},
+      {"name": "yağ", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Yumurta, süt ve tuzu çırp.",
+      "Ekmek dilimlerini karışıma batır.",
+      "Kızgın yağda her iki tarafını kızart."
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Krep",
+    "time_min": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "un", "quantity": 1, "unit": "su bardağı"},
+      {"name": "süt", "quantity": 300, "unit": "ml"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "yağ", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Tüm malzemeleri pürüzsüz olana kadar çırp, 10 dakika dinlendir.",
+      "Hafif yağlanmış tavaya bir kepçe dökerek ince yay.",
+      "Her iki tarafını pişirip istediğin iç malzemeyle servis et."
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Piyaz",
+    "time_min": 15,
+    "servings": 4,
+    "ingredients": [
+      {"name": "kuru fasulye", "quantity": 2, "unit": "su bardağı"},
+      {"name": "soğan", "quantity": 1, "unit": "adet"},
+      {"name": "maydanoz", "quantity": 1, "unit": "demet"},
+      {"name": "yumurta", "quantity": 2, "unit": "adet"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Haşlanmış fasulyeyi süz.",
+      "İnce doğranmış soğan ve maydanozu ekle.",
+      "Zeytinyağı, limon suyu ve tuzla karıştır, haşlanmış yumurta dilimleriyle süsle."
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Cacık",
+    "time_min": 10,
+    "servings": 4,
+    "ingredients": [
+      {"name": "yoğurt", "quantity": 500, "unit": "g"},
+      {"name": "salatalık", "quantity": 2, "unit": "adet"},
+      {"name": "sarımsak", "quantity": 1, "unit": "adet"},
+      {"name": "kuru nane", "quantity": 1, "unit": "çay kaşığı"},
+      {"name": "zeytinyağı", "quantity": 1, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Salatalıkları küçük doğra ya da rendele.",
+      "Yoğurdu bir bardak su, ezilmiş sarımsak ve tuzla çırp.",
+      "Salatalığı ekle, üzerine nane ve zeytinyağı gezdir."
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Mevsim salatası",
+    "time_min": 10,
+    "servings": 3,
+    "ingredients": [
+      {"name": "marul", "quantity": 1, "unit": "adet"},
+      {"name": "domates", "quantity": 1, "unit": "adet"},
+      {"name": "salatalık", "quantity": 1, "unit": "adet"},
+      {"name": "havuç", "quantity": 1, "unit": "adet"},
+      {"name": "limon", "quantity": 1, "unit": "adet"},
+      {"name": "zeytinyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Marulu ince kıy, domates ve salatalığı doğra, havucu rendele.",
+      "Zeytinyağı, limon suyu ve tuzla karıştır."
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Sütlaç",
+    "time_min": 45,
+    "servings": 6,
+    "ingredients": [
+      {"name": "süt", "quantity": 1, "unit": "l"},
+      {"name": "pirinç", "quantity": 0.5, "unit": "su bardağı"},
+      {"name": "şeker", "quantity": 1, "unit": "su bardağı"},
+      {"name": "nişasta", "quantity": 2, "unit": "yemek kaşığı"}
+    ],
+    "steps": [
+      "Pirinci bir su bardağı suyla yumuşayana kadar haşla.",
+      "Sütü ekleyip kaynat.",
+      "Az sütte açtığın nişastayı ve şekeri ekle, koyulaşana kadar karıştırarak pişir.",
+      "Kaselere paylaştırıp soğut."
+    ]
+  },
+  {
+    "id": 50,
+    "name": "İrmik helvası",
+    "time_min": 30,
+    "servings": 6,
+    "ingredients": [
+      {"name": "irmik", "quantity": 2, "unit": "su bardağı"},
+      {"name": "tereyağı", "quantity": 125, "unit": "g"},
+      {"name": "süt", "quantity": 500, "unit": "ml"},
+      {"name": "şeker", "quantity": 1.5, "unit": "su bardağı"}
+    ],
+    "steps": [
+      "Süt, bir su bardağı su ve şekeri kaynatıp şerbet hazırla.",
+      "İrmiği tereyağında pembeleşene kadar sürekli karıştırarak kavur.",
+      "Sıcak şerbeti ekle, kapağı kapatıp kısık ateşte suyunu çektir ve demlendir."
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Muhallebi",
+    "time_min": 25,
+    "servings": 4,
+    "ingredients": [
+      {"name": "süt", "quantity": 1, "unit": "l"},
+      {"name": "şeker", "quantity": 1, "unit": "su bardağı"},
+      {"name": "un", "quantity": 3, "unit": "yemek kaşığı"},
+      {"name": "nişasta", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "vanilin", "quantity": 1, "unit": "paket"}
+    ],
+    "steps": [
+      "Süt, şeker, un ve nişastayı soğukken iyice karıştır.",
+      "Orta ateşte sürekli karıştırarak koyulaşana kadar pişir.",
+      "Vanilini ekle, kaselere paylaştırıp soğut."
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Patates püresi",
+    "time_min": 25,
+    "servings": 3,
+    "ingredients": [
+      {"name": "patates", "quantity": 4, "unit": "adet"},
+      {"name": "süt", "quantity": 100, "unit": "ml"},
+      {"name": "tereyağı", "quantity": 2, "unit": "yemek kaşığı"},
+      {"name": "tuz", "quantity": 1, "unit": "çay kaşığı"}
+    ],
+    "steps": [
+      "Patatesleri soyup yumuşayana kadar haşla.",
+      "Süzüp ezici ile ez.",
+      "Sıcak süt, tereyağı ve tuzu ekleyip pürüzsüz olana kadar karıştır."
+    ]
   }
 ]
