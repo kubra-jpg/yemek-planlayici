@@ -2,14 +2,23 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
-from core.catalog import catalog_names
 
 from core import repository as repo
+from core.catalog import catalog_names
 from core.db import get_session, init_db
 from core.filters import SORT_LABELS, filter_recipes, sort_results, turkish_key
+from core.equipment import (
+    PROFILES,
+    TOOLS,
+    filter_by_equipment,
+    load_overrides,
+    tools_for,
+)
+from core.goals import filter_by_goals, sort_by_nutrition
 from core.matcher import match_recipes
-from core.units import UNIT_CHOICES, format_amount
+from core.nutrition import recipe_nutrition
 from core.staples import STAPLE_CANDIDATES
+from core.units import UNIT_CHOICES, format_amount
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -25,6 +34,13 @@ def setup_database():
 
 
 setup_database()
+
+
+@st.cache_data
+def equipment_overrides():
+    """data/equipment.json: tarif adına göre gereken aletler (açılışta bir kez okunur)."""
+    return load_overrides()
+
 
 # Tarif formunun her kayıttan sonra temiz açılması için sürüm sayacı
 if "form_version" not in st.session_state:
@@ -45,10 +61,11 @@ tab_pantry, tab_recipes, tab_shopping, tab_manage = st.tabs(
     ["Evdeki malzemeler", "Önerilen tarifler", "Alışveriş listesi", "Tarifleri yönet"]
 )
 
+
 # --- Sekme 1: Evdeki malzemeler ---
 with tab_pantry:
-      catalog_options = sorted(set(catalog_names()) | set(all_ingredients), key=turkish_key)
-with st.form("add_pantry_form", clear_on_submit=True):
+    catalog_options = sorted(set(catalog_names()) | set(all_ingredients), key=turkish_key)
+    with st.form("add_pantry_form", clear_on_submit=True):
         picked = st.multiselect(
             "Listeden seç",
             [n for n in catalog_options if n not in pantry],
@@ -60,13 +77,13 @@ with st.form("add_pantry_form", clear_on_submit=True):
             help="Birden fazla malzemeyi virgülle ayırabilirsin.",
         )
         submitted = st.form_submit_button("Ekle")
-if submitted:
+    if submitted:
         text = ", ".join(picked + ([new_item] if new_item.strip() else []))
         with get_session() as session:
             repo.add_pantry_many(session, text)
         st.rerun()
 
-with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
+    with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
         st.caption(
             "Bu malzemeler her zaman evde var sayılır: eşleşme oranına katılmaz, "
             "eksik görünmez ve alışveriş listesine eklenmez."
@@ -84,10 +101,10 @@ with st.expander(f"🧂 Temel malzemeler ({len(staples)})"):
                 repo.set_staples(session, chosen_staples)
             st.rerun()
 
-if not pantry_items:
+    if not pantry_items:
         st.write("Henüz malzeme eklemedin.")
 
-for item in pantry_items:
+    for item in pantry_items:
         col1, col2, col3, col4 = st.columns([3, 1.2, 1.5, 1])
         col1.write(item["name"])
         quantity = col2.number_input(
@@ -133,9 +150,31 @@ with tab_recipes:
     f3, f4, f5 = st.columns(3)
     only_matching = f3.toggle("Sadece eşleşenler", value=True)
     favorites_only = f4.toggle("Sadece favoriler")
-    sort_by = f5.selectbox(
-        "Sırala", list(SORT_LABELS), format_func=SORT_LABELS.get
-    )
+    sort_labels = {
+        **SORT_LABELS,
+        "kcal": "Kalori (az → çok)",
+        "protein": "Protein (çok → az)",
+    }
+    sort_by = f5.selectbox("Sırala", list(sort_labels), format_func=sort_labels.get)
+
+    with st.expander("🎯 Hedefler ve mutfak ekipmanı"):
+        g1, g2 = st.columns(2)
+        max_kcal = g1.selectbox(
+            "En fazla kalori (kişi başı)",
+            [None, 300, 400, 500, 600, 800],
+            format_func=lambda v: "Fark etmez" if v is None else f"{v} kcal",
+        )
+        min_protein = g2.selectbox(
+            "En az protein (kişi başı)",
+            [None, 10, 20, 30, 40],
+            format_func=lambda v: "Fark etmez" if v is None else f"{v} g",
+        )
+        profile = st.selectbox("Mutfak profili", list(PROFILES))
+        if PROFILES[profile] is None:
+            available_tools = st.multiselect("Evimde olanlar", TOOLS, default=TOOLS)
+        else:
+            available_tools = PROFILES[profile]
+            st.caption("Evde var sayılanlar: " + ", ".join(available_tools))
 
     filtered = filter_recipes(recipes, query, max_time, favorites_only)
     all_results = match_recipes(pantry, filtered, staples)
@@ -144,7 +183,17 @@ with tab_recipes:
     else:
         results = all_results
     hidden = len(all_results) - len(results)
-    results = sort_results(results, sort_by)
+
+    # Beslenme hedefi ve ekipman süzgeçleri
+    before_filters = len(results)
+    results = filter_by_goals(results, max_kcal, min_protein)
+    results = filter_by_equipment(results, available_tools, equipment_overrides())
+    goal_hidden = before_filters - len(results)
+
+    if sort_by in ("kcal", "protein"):
+        results = sort_by_nutrition(results, sort_by)
+    else:
+        results = sort_results(results, sort_by)
 
     if only_matching and not pantry:
         st.info(
@@ -160,16 +209,39 @@ with tab_recipes:
             f"Evdeki malzemelerinle eşleşmeyen {hidden} tarif gizlendi. "
             "Görmek için 'Sadece eşleşenler' anahtarını kapat."
         )
+    if goal_hidden:
+        st.caption(
+            f"Kalori, protein ya da ekipman seçimine uymayan {goal_hidden} tarif gizlendi."
+        )
 
     for r in results:
         recipe = r["recipe"]
+        nut = recipe_nutrition(recipe)
+        tools = tools_for(recipe, equipment_overrides())
         pct = int(r["ratio"] * 100)
         star = "⭐ " if recipe["is_favorite"] else ""
-        title = f"{star}{recipe['name']} — %{pct} eşleşme · {recipe['time_min']} dk"
+        title = (
+            f"{star}{recipe['name']} — %{pct} eşleşme · {recipe['time_min']} dk · "
+            f"{nut['per_serving']} kcal"
+        )
         is_open = st.session_state.get("open_recipe") == recipe["id"]
 
         with st.expander(title, expanded=is_open):
-            st.write(f"⏱ {recipe['time_min']} dk | 👥 {recipe['servings']} kişilik")
+            st.write(
+                f"⏱ {recipe['time_min']} dk | 👥 {recipe['servings']} kişilik | "
+                f"🔥 yaklaşık {nut['per_serving']} kcal / kişi"
+            )
+            st.write(
+                f"💪 Protein {nut['protein']} g · 🍞 Karbonhidrat {nut['carbs']} g · "
+                f"🧈 Yağ {nut['fat']} g (kişi başı)"
+            )
+            st.write(
+                "🔧 Gerekenler: " + (", ".join(tools) if tools else "pişirme gerekmez")
+            )
+            if nut["unknown"]:
+                st.caption(
+                    "Besin hesabına katılmayan malzemeler: " + ", ".join(nut["unknown"])
+                )
 
             st.write("**Malzemeler:**")
             for ing in recipe["ingredients"]:

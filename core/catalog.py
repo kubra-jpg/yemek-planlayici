@@ -9,7 +9,7 @@ CATALOG = {
         "maydanoz", "dereotu", "nane", "fesleğen", "semizotu", "pırasa", "karnabahar", "brokoli",
         "lahana", "mor lahana", "kereviz", "enginar", "bamya", "taze fasulye", "bezelye", "bakla",
         "mantar", "mısır", "turp", "pancar", "kuşkonmaz", "taze soğan", "zencefil", "tatlı patates",
-        "asma yaprağı", "börülce", "avokado", "turşu", "zeytin", "kuru patlıcan", "kuru biber",
+        "asma yaprağı", "börülce", "avokado", "turşu", "zeytin", "patlamalık mısır", "kuru patlıcan", "kuru biber",
         "yeşil mercimek", "domates konservesi", "dolmalık biber", "çarliston biber",
         "sivri biber", "kapya biber", "salata", "göbek marul", "tere", "ısırgan",
         "pazı", "kıvırcık", "lahana turşusu", "hıyar turşusu", "mantar konservesi", "yeşil soğan",
@@ -48,7 +48,7 @@ CATALOG = {
         "yulaf ezmesi", "irmik", "mısır unu", "buğday", "tarhana", "noodle", "lazanya yaprağı",
         "karabuğday", "kinoa", "kuskus", "tutmaç", "mantı", "yarma", "pirinç unu",
         "tam buğday unu", "çavdar unu", "mısır gevreği", "müsli", "granola", "kepek",
-        "mercimek", "fasulye", "kuru bakla", "soya",
+        "fasulye", "kuru bakla", "soya",
     ],
     "Fırın ve hamur": [
         "ekmek", "lavaş", "yufka", "simit", "un", "maya", "kabartma tozu", "galeta unu",

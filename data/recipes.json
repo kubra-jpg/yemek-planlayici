@@ -5643,8 +5643,8 @@
       },
       {
         "name": "marul",
-        "quantity": 2,
-        "unit": "adet"
+        "quantity": 30,
+        "unit": "g"
       },
       {
         "name": "domates",
@@ -5795,8 +5795,8 @@
       },
       {
         "name": "marul",
-        "quantity": 2,
-        "unit": "adet"
+        "quantity": 30,
+        "unit": "g"
       },
       {
         "name": "domates",
@@ -6402,8 +6402,8 @@
       },
       {
         "name": "marul",
-        "quantity": 4,
-        "unit": "adet"
+        "quantity": 60,
+        "unit": "g"
       },
       {
         "name": "domates",
@@ -7013,8 +7013,8 @@
       },
       {
         "name": "marul",
-        "quantity": 2,
-        "unit": "adet"
+        "quantity": 30,
+        "unit": "g"
       },
       {
         "name": "domates",
@@ -10685,8 +10685,8 @@
     "ingredients": [
       {
         "name": "marul",
-        "quantity": 4,
-        "unit": "adet"
+        "quantity": 60,
+        "unit": "g"
       },
       {
         "name": "domates",
@@ -12878,7 +12878,7 @@
     "servings": 2,
     "ingredients": [
       {
-        "name": "mısır",
+        "name": "patlamalık mısır",
         "quantity": 0.5,
         "unit": "su bardağı"
       },
@@ -13000,8 +13000,8 @@
       },
       {
         "name": "marul",
-        "quantity": 2,
-        "unit": "adet"
+        "quantity": 30,
+        "unit": "g"
       }
     ],
     "steps": [
@@ -13058,8 +13058,8 @@
       },
       {
         "name": "marul",
-        "quantity": 2,
-        "unit": "adet"
+        "quantity": 30,
+        "unit": "g"
       },
       {
         "name": "soğan",
