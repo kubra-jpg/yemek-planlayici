@@ -1,4 +1,4 @@
-from core.catalog import CATALOG, catalog_names
+from core.catalog import CATALOG, PRESETS, catalog_groups, catalog_names
 from core.matcher import normalize
 from core.staples import STAPLE_CANDIDATES
 
@@ -26,3 +26,16 @@ def test_every_recipe_ingredient_is_in_catalog():
     names = set(catalog_names())
     missing = {i["name"] for r in data for i in r["ingredients"]} - names
     assert not missing, sorted(missing)
+
+
+def test_groups_have_no_duplicates_across_categories():
+    groups = catalog_groups()
+    flat = [n for items in groups.values() for n in items]
+    assert len(flat) == len(set(flat))
+    assert set(flat) == set(catalog_names())
+
+
+def test_presets_exist_in_catalog():
+    names = set(catalog_names())
+    for label, items in PRESETS.items():
+        assert items and set(items) <= names, label

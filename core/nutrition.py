@@ -4,7 +4,10 @@ Değerler 100 g başına ortalama kcal'dir; birim dönüşümleri yaklaşık gra
 Sonuç bir tahmindir (pişirme, marka ve boyut farkları dikkate alınmaz).
 """
 
+from functools import lru_cache
+
 from core.matcher import normalize
+from core.nutrition_extra import M_EXTRA, N_EXTRA
 
 # ad: (100 g kcal, su bardağı g, adet g, demet g, dilim g, paket g) -- bilinmeyen None
 _N = {
@@ -165,6 +168,7 @@ _N = {
     "şehriye": (360, 150, None, None, None, None),
     "şeker": (387, 200, None, None, None, None),
 }
+_N.update(N_EXTRA)
 NUTRITION = {normalize(k): v for k, v in _N.items()}
 
 # ad: (protein g, karbonhidrat g, yağ g) -- 100 g başına
@@ -326,6 +330,7 @@ _M = {
     "şehriye": (12, 73, 1.5),
     "şeker": (0, 97, 0),
 }
+_M.update(M_EXTRA)
 MACROS = {normalize(k): v for k, v in _M.items()}
 
 # su bardağı = 200 ml kabul edilir; diğer hacim birimlerinin su bardağına oranı
@@ -340,6 +345,7 @@ _CUP_FRACTION = {
 _PIECE_COL = {"adet": 2, "demet": 3, "dilim": 4, "paket": 5}
 
 
+@lru_cache(maxsize=4096)
 def _find_key(name):
     """Malzeme adından tablo anahtarını bulur; tam ad yoksa en uzun kelime-altkümesi eşleşmesi."""
     key = normalize(name)

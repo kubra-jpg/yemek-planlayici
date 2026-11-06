@@ -951,26 +951,6 @@
  "Lokum": [
   "ocak"
  ],
- "Ayran": [],
- "Limonata": [],
- "Smoothie muz çilek": [
-  "blender"
- ],
- "Milkshake çikolata": [
-  "blender"
- ],
- "Sıcak çikolata": [
-  "ocak"
- ],
- "Salep": [
-  "ocak"
- ],
- "Türk kahvesi": [
-  "ocak"
- ],
- "Ihlamur": [
-  "ocak"
- ],
  "Patlamış mısır": [
   "ocak"
  ],
@@ -1005,5 +985,1162 @@
  "Mozzarella stick": [
   "ocak"
  ],
- "Peynir tabağı": []
+ "Peynir tabağı": [],
+ "Kuzu pirzola ızgara": [
+  "ocak",
+  "ızgara"
+ ],
+ "Biftek tava": [
+  "ocak"
+ ],
+ "Kaburga fırında": [
+  "fırın"
+ ],
+ "Kuzu incik": [
+  "ocak"
+ ],
+ "Kavurma": [
+  "ocak"
+ ],
+ "Çoban kavurma": [
+  "ocak"
+ ],
+ "Et döner": [
+  "ocak"
+ ],
+ "Tavuk döner": [
+  "ocak"
+ ],
+ "Patlıcan kebabı": [
+  "fırın"
+ ],
+ "Beyti kebap": [
+  "ocak",
+  "ızgara"
+ ],
+ "İskender": [
+  "ocak"
+ ],
+ "Tepsi kebabı": [
+  "fırın"
+ ],
+ "Kağıt kebabı": [
+  "fırın"
+ ],
+ "Testi kebabı": [
+  "ocak",
+  "fırın"
+ ],
+ "Tandır kebabı": [
+  "ocak",
+  "fırın"
+ ],
+ "Ciğer tava": [
+  "ocak"
+ ],
+ "Ciğer sarma": [
+  "ocak"
+ ],
+ "Kokoreç tava": [
+  "ocak"
+ ],
+ "Kelle sögüş": [
+  "ocak"
+ ],
+ "Dana haşlama": [
+  "ocak"
+ ],
+ "Rosto": [
+  "ocak",
+  "fırın"
+ ],
+ "Fırında bütün tavuk": [
+  "fırın"
+ ],
+ "Tavuk sarma": [
+  "ocak"
+ ],
+ "Tavuk schnitzel": [
+  "ocak"
+ ],
+ "Tavuk bulgur pilavı": [
+  "ocak"
+ ],
+ "Tavuk sote biberli": [
+  "ocak"
+ ],
+ "Soslu tavuk": [
+  "ocak"
+ ],
+ "Tavuk pirzola": [
+  "ocak",
+  "ızgara"
+ ],
+ "Kıymalı patates oturtma": [
+  "ocak",
+  "fırın"
+ ],
+ "Hasan paşa köfte": [
+  "ocak"
+ ],
+ "Sultan kebabı": [
+  "ocak",
+  "fırın"
+ ],
+ "Soğan dolması": [
+  "ocak"
+ ],
+ "Kabak dolması etli": [
+  "ocak"
+ ],
+ "Patlıcan dolması": [
+  "ocak",
+  "fırın"
+ ],
+ "Lahana dolması etli": [
+  "ocak"
+ ],
+ "Yaprak sarma etli": [
+  "ocak"
+ ],
+ "Etli yeşil mercimek": [
+  "ocak"
+ ],
+ "Etli nohut yemeği": [
+  "ocak"
+ ],
+ "Etli barbunya": [
+  "ocak"
+ ],
+ "Kıymalı kabak": [
+  "ocak"
+ ],
+ "Kıymalı karnabahar": [
+  "ocak"
+ ],
+ "Kıymalı ıspanak yemeği": [
+  "ocak"
+ ],
+ "Kıymalı pırasa": [
+  "ocak"
+ ],
+ "Kıymalı taze fasulye": [
+  "ocak"
+ ],
+ "Kıymalı bezelye": [
+  "ocak"
+ ],
+ "Kıymalı enginar": [
+  "ocak"
+ ],
+ "Etli kabak": [
+  "ocak"
+ ],
+ "Etli lahana": [
+  "ocak"
+ ],
+ "Etli bakla": [
+  "ocak"
+ ],
+ "Etli enginar": [
+  "ocak"
+ ],
+ "Kahvaltı tabağı": [
+  "ocak"
+ ],
+ "Kuru kaşarlı omlet": [
+  "ocak"
+ ],
+ "Yumurtalı patates": [
+  "ocak"
+ ],
+ "Pırasalı omlet": [
+  "ocak"
+ ],
+ "Ispanaklı yumurta": [
+  "ocak"
+ ],
+ "Domatesli yumurta": [
+  "ocak"
+ ],
+ "Mantarlı yumurta": [
+  "ocak"
+ ],
+ "Peynirli yumurta": [
+  "ocak"
+ ],
+ "Hamur kızartması": [
+  "ocak"
+ ],
+ "Çökelekli gözleme": [
+  "ocak"
+ ],
+ "Patatesli gözleme": [
+  "ocak"
+ ],
+ "Kaşarlı sandviç": [
+  "ocak",
+  "tost makinesi"
+ ],
+ "Avokado ezmesi": [
+  "ocak"
+ ],
+ "Yulaflı pankek": [
+  "ocak"
+ ],
+ "Muzlu yulaf": [
+  "ocak"
+ ],
+ "Gece yulafı": [],
+ "Chia yerine yulaflı puding": [],
+ "Peynirli krep": [
+  "ocak"
+ ],
+ "Ev yapımı granola": [
+  "fırın"
+ ],
+ "Mercimekli kahvaltı köftesi": [
+  "ocak"
+ ],
+ "Pazı çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Kuşkonmaz çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Pancar çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Tatlı patates çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Mercimek çorbası havuçlu": [
+  "ocak",
+  "blender"
+ ],
+ "Soğan çorbası": [
+  "ocak",
+  "fırın"
+ ],
+ "Minestrone": [
+  "ocak"
+ ],
+ "Tavuk suyu çorba": [
+  "ocak"
+ ],
+ "Mercimekli ıspanak çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Yayla çorbası pirinçli": [
+  "ocak"
+ ],
+ "Sebzeli omlet fırında": [
+  "fırın"
+ ],
+ "Muffin yumurta": [
+  "fırın"
+ ],
+ "Kıymalı gözleme": [
+  "ocak"
+ ],
+ "Mıhlama peynirli": [
+  "ocak"
+ ],
+ "Bazlama": [
+  "ocak"
+ ],
+ "Pitta ekmeği": [
+  "fırın"
+ ],
+ "Tortilla": [
+  "ocak"
+ ],
+ "Quesadilla": [
+  "ocak"
+ ],
+ "Burrito": [
+  "ocak"
+ ],
+ "Taco": [
+  "ocak"
+ ],
+ "Nachos": [
+  "ocak",
+  "fırın"
+ ],
+ "Falafel dürüm": [
+  "ocak"
+ ],
+ "Hummus tabağı": [
+  "ocak"
+ ],
+ "Fava": [
+  "ocak",
+  "blender"
+ ],
+ "Soslu patates": [
+  "ocak"
+ ],
+ "Cevizli ıspanak salatası": [],
+ "Tavuklu sezar salata": [
+  "ocak"
+ ],
+ "Kinoa salatası": [
+  "ocak"
+ ],
+ "Kuskus salatası": [],
+ "Tabule": [],
+ "Pancar salatası": [
+  "ocak"
+ ],
+ "Kabak salatası": [
+  "ocak"
+ ],
+ "Kereviz salatası": [],
+ "Kırmızı lahana salatası": [],
+ "Turp salatası": [],
+ "Zeytin salatası": [],
+ "Yeşil salata": [],
+ "Tavuklu avokado salatası": [
+  "ocak"
+ ],
+ "Ton balıklı mısır salatası": [],
+ "Peynirli makarna salatası": [
+  "ocak"
+ ],
+ "Pirinç salatası": [
+  "ocak"
+ ],
+ "Bulgur salatası": [],
+ "Nohutlu salata": [
+  "ocak"
+ ],
+ "Mercimek köfte tabağı": [
+  "ocak"
+ ],
+ "Cız bız": [
+  "ocak"
+ ],
+ "Sosisli sandviç": [
+  "ocak"
+ ],
+ "Pizza tost": [
+  "ocak",
+  "tost makinesi"
+ ],
+ "Mini pizza": [
+  "fırın"
+ ],
+ "Sebzeli pizza": [
+  "fırın"
+ ],
+ "Pizza margarita": [
+  "fırın"
+ ],
+ "Pide ekmeği tavada": [
+  "ocak"
+ ],
+ "Simit poğaça": [
+  "fırın"
+ ],
+ "Tuzlu kurabiye": [
+  "fırın"
+ ],
+ "Zeytinli poğaça": [
+  "fırın"
+ ],
+ "Patatesli poğaça": [
+  "ocak"
+ ],
+ "Cevizli kurabiye": [
+  "fırın"
+ ],
+ "Fıstıklı kurabiye": [
+  "fırın"
+ ],
+ "Hindistan cevizli kurabiye": [
+  "fırın"
+ ],
+ "Fıstık ezmeli kurabiye": [
+  "fırın"
+ ],
+ "Bisküvili pasta": [
+  "ocak"
+ ],
+ "Mozaik pasta": [
+  "ocak"
+ ],
+ "Çikolatalı sufle": [
+  "fırın"
+ ],
+ "Çikolatalı kek": [
+  "fırın"
+ ],
+ "Vişneli kek": [
+  "fırın"
+ ],
+ "Cevizli kek": [
+  "fırın"
+ ],
+ "Yoğurtlu kek": [
+  "fırın"
+ ],
+ "Kakaolu kek": [
+  "fırın"
+ ],
+ "Elmalı kek": [
+  "fırın"
+ ],
+ "Cheesecake limonlu": [
+  "fırın"
+ ],
+ "Fırınlı sütlaç": [
+  "ocak",
+  "fırın"
+ ],
+ "Sütlü tatlı": [],
+ "Bademli muhallebi": [],
+ "Tavuk göğsü muhallebi": [
+  "ocak"
+ ],
+ "Keşkül fıstıklı": [
+  "ocak"
+ ],
+ "Pirinç unlu muhallebi": [
+  "ocak"
+ ],
+ "Cevizli lokum": [
+  "ocak"
+ ],
+ "Fındık ezmeli krep": [
+  "ocak"
+ ],
+ "Çikolatalı krep": [
+  "ocak"
+ ],
+ "Waffle": [
+  "tost makinesi"
+ ],
+ "French toast": [
+  "ocak"
+ ],
+ "Bal kabaklı kek": [
+  "fırın"
+ ],
+ "Muzlu puding": [
+  "ocak"
+ ],
+ "Meyveli yoğurt": [],
+ "Fırında elma": [
+  "fırın"
+ ],
+ "Armut kompostosu": [
+  "ocak"
+ ],
+ "Erik komposto": [
+  "ocak"
+ ],
+ "Vişne komposto": [
+  "ocak"
+ ],
+ "Hoşaf": [
+  "ocak"
+ ],
+ "İncir tatlısı": [
+  "ocak"
+ ],
+ "Kestane şekeri": [
+  "ocak"
+ ],
+ "Elmalı tarçınlı yulaf": [
+  "ocak"
+ ],
+ "Kakaolu yulaf barı": [
+  "ocak"
+ ],
+ "Bademli kurabiye": [
+  "fırın"
+ ],
+ "Susamlı kurabiye": [
+  "fırın"
+ ],
+ "Nişastalı kurabiye": [
+  "fırın"
+ ],
+ "Şakşuka": [
+  "ocak"
+ ],
+ "Shakshuka": [
+  "ocak"
+ ],
+ "Risotto mantarlı": [
+  "ocak"
+ ],
+ "Risotto domatesli": [
+  "ocak"
+ ],
+ "Tavuklu köri": [
+  "ocak"
+ ],
+ "Sebzeli köri": [
+  "ocak"
+ ],
+ "Sebzeli noodle": [
+  "ocak"
+ ],
+ "Tavuklu noodle": [
+  "ocak"
+ ],
+ "Kızarmış pirinç": [
+  "ocak"
+ ],
+ "Tavuklu kızarmış pirinç": [
+  "ocak"
+ ],
+ "Karidesli noodle": [
+  "ocak"
+ ],
+ "Karidesli makarna": [
+  "ocak"
+ ],
+ "Spagetti aglio olio": [
+  "ocak"
+ ],
+ "Penne arrabbiata": [
+  "ocak"
+ ],
+ "Mantarlı spagetti": [
+  "ocak"
+ ],
+ "Dört peynirli makarna": [
+  "ocak"
+ ],
+ "Tavuklu penne": [
+  "ocak"
+ ],
+ "Kıymalı spagetti": [
+  "ocak"
+ ],
+ "Makarna fırında peynirli": [
+  "ocak",
+  "fırın"
+ ],
+ "Kremalı kabak makarna": [
+  "ocak"
+ ],
+ "Mac and cheese": [
+  "ocak",
+  "fırın"
+ ],
+ "Sebzeli kuskus": [],
+ "Tavuklu kuskus": [
+  "ocak"
+ ],
+ "Kinoa pilavı": [
+  "ocak"
+ ],
+ "Karabuğday pilavı": [
+  "ocak"
+ ],
+ "Sebzeli bulgur": [
+  "ocak"
+ ],
+ "Tavuklu bulgur": [
+  "ocak"
+ ],
+ "Mercimekli pilav": [
+  "ocak"
+ ],
+ "Mantar sote sarımsaklı": [
+  "ocak"
+ ],
+ "Brokoli sote": [
+  "ocak"
+ ],
+ "Kuşkonmaz tavada": [],
+ "Fırında kabak": [
+  "fırın"
+ ],
+ "Fırında karnabahar": [
+  "fırın"
+ ],
+ "Fırında brokoli peynirli": [
+  "ocak",
+  "fırın"
+ ],
+ "Fırında tatlı patates": [
+  "fırın"
+ ],
+ "Patates graten": [
+  "fırın"
+ ],
+ "Patates püresi tereyağlı": [
+  "ocak"
+ ],
+ "Elma dilimi patates": [
+  "fırın"
+ ],
+ "Hasselback patates": [
+  "fırın"
+ ],
+ "Patatesli omlet": [
+  "ocak"
+ ],
+ "Mücver peynirli": [
+  "ocak"
+ ],
+ "Ispanaklı mücver": [
+  "ocak"
+ ],
+ "Havuç mücveri": [
+  "ocak"
+ ],
+ "Patates mücveri": [
+  "ocak"
+ ],
+ "Karnabahar mücveri": [
+  "ocak"
+ ],
+ "Börülceli pilaki": [
+  "ocak"
+ ],
+ "Kereviz salatası limonlu": [],
+ "Soğanlı bulgur köftesi": [
+  "ocak"
+ ],
+ "Kıymalı yumurta": [
+  "ocak"
+ ],
+ "Ekşili köfte": [
+  "ocak"
+ ],
+ "Terbiyeli köfte": [
+  "ocak"
+ ],
+ "Kadınbudu köfte kıymalı": [
+  "ocak"
+ ],
+ "Çiftlik köfte": [
+  "ocak"
+ ],
+ "Hamsi buğulama": [
+  "ocak"
+ ],
+ "Hamsi fırında": [
+  "fırın"
+ ],
+ "Hamsi çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Somon fırında sebzeli": [
+  "fırın"
+ ],
+ "Somon tava": [
+  "ocak"
+ ],
+ "Levrek fırında": [
+  "fırın"
+ ],
+ "Çupra fırında": [
+  "fırın"
+ ],
+ "Mezgit tava": [
+  "ocak"
+ ],
+ "Lüfer ızgara": [
+  "ızgara"
+ ],
+ "Kefal tava": [
+  "ocak"
+ ],
+ "Istavrit tava": [
+  "ocak"
+ ],
+ "Kılıç şiş": [
+  "ızgara"
+ ],
+ "Ahtapot salatası": [
+  "ocak"
+ ],
+ "Karides tava": [
+  "ocak"
+ ],
+ "Karides salatası": [
+  "ocak"
+ ],
+ "Balık köftesi": [
+  "ocak"
+ ],
+ "Ton balıklı börek": [
+  "fırın"
+ ],
+ "Balıklı tava çorba": [
+  "ocak"
+ ],
+ "Kalamar dolma": [
+  "ocak"
+ ],
+ "Midye tava": [
+  "ocak"
+ ],
+ "Midye pilav": [
+  "ocak"
+ ],
+ "Sardalya fırında": [
+  "fırın"
+ ],
+ "Uskumru fırında": [
+  "fırın"
+ ],
+ "Ton balıklı pilav": [
+  "ocak"
+ ],
+ "Ton balıklı omlet": [
+  "ocak"
+ ],
+ "Ton balıklı krep": [
+  "ocak"
+ ],
+ "Peynirli kayık pide": [
+  "fırın"
+ ],
+ "Sucuklu pide": [
+  "fırın"
+ ],
+ "Ispanaklı pide": [
+  "ocak"
+ ],
+ "Lahmacun hızlı": [
+  "fırın"
+ ],
+ "Etli ekmek": [
+  "fırın"
+ ],
+ "Mantar böreği": [
+  "ocak"
+ ],
+ "Ispanaklı sigara böreği": [
+  "ocak"
+ ],
+ "Patatesli börek": [
+  "ocak"
+ ],
+ "Sosisli börek": [
+  "fırın"
+ ],
+ "Kol böreği": [
+  "ocak",
+  "fırın"
+ ],
+ "Fırında makarna peynirli kıymalı": [
+  "ocak"
+ ],
+ "Mantı fırında": [
+  "fırın"
+ ],
+ "Arabaşı çorbası": [
+  "ocak"
+ ],
+ "Mantı çorbası": [
+  "ocak"
+ ],
+ "Keşkek": [
+  "ocak"
+ ],
+ "Hamsili ekmek": [
+  "ocak"
+ ],
+ "Kuru fasulye pilavla servis": [
+  "ocak"
+ ],
+ "Barbunya pilaki zeytinyağlı": [
+  "ocak"
+ ],
+ "Kırmızı mercimek yemeği": [
+  "ocak"
+ ],
+ "Nohut ezmesi": [
+  "ocak",
+  "blender"
+ ],
+ "Humus kırmızı biberli": [
+  "fırın",
+  "blender"
+ ],
+ "Kuru dolma": [
+  "ocak"
+ ],
+ "Domates dolması etli": [
+  "ocak"
+ ],
+ "Biber dolması zeytinyağlı pirinçli": [
+  "ocak"
+ ],
+ "Kabak çiçeği dolması": [
+  "ocak"
+ ],
+ "Pırasa dolması": [
+  "ocak"
+ ],
+ "Ispanak sarma": [
+  "ocak"
+ ],
+ "Mantar dolması": [
+  "fırın"
+ ],
+ "Soğanlı pilav": [
+  "ocak"
+ ],
+ "Sarımsaklı pilav": [
+  "ocak"
+ ],
+ "Tavuk suyuyla pilav": [
+  "ocak"
+ ],
+ "Mısırlı pilav": [
+  "ocak"
+ ],
+ "Bezelyeli pilav": [
+  "ocak"
+ ],
+ "Havuçlu pilav": [
+  "ocak"
+ ],
+ "Safranlı pilav": [
+  "ocak"
+ ],
+ "Zeytinyağlı kuru fasulye": [
+  "ocak"
+ ],
+ "Zeytinyağlı nohut": [
+  "ocak"
+ ],
+ "Zeytinyağlı mercimek": [
+  "ocak"
+ ],
+ "Zeytinyağlı brokoli": [
+  "ocak"
+ ],
+ "Zeytinyağlı karnabahar": [
+  "ocak"
+ ],
+ "Zeytinyağlı kabak": [
+  "ocak"
+ ],
+ "Zeytinyağlı bezelye": [
+  "ocak"
+ ],
+ "Zeytinyağlı pazı": [
+  "ocak"
+ ],
+ "Zeytinyağlı semizotu": [
+  "ocak"
+ ],
+ "Zeytinyağlı kuşkonmaz": [
+  "ocak"
+ ],
+ "Zeytinyağlı ıspanak sarma": [
+  "ocak"
+ ],
+ "Zeytinyağlı bakla": [
+  "ocak"
+ ],
+ "Zeytinyağlı biber": [
+  "ocak"
+ ],
+ "Zeytinyağlı pırasa havuçlu": [
+  "ocak"
+ ],
+ "Zeytinyağlı kereviz portakallı": [
+  "ocak"
+ ],
+ "Sebze graten": [
+  "ocak",
+  "fırın"
+ ],
+ "Buharda sebze": [
+  "ocak"
+ ],
+ "Közlenmiş biber salatası": [
+  "fırın"
+ ],
+ "Közlenmiş patlıcan salatası": [
+  "fırın"
+ ],
+ "Domates salatası soğanlı": [],
+ "Patlıcan ezmesi": [],
+ "Kabak ezmesi": [
+  "ocak"
+ ],
+ "Havuç ezmesi": [
+  "ocak"
+ ],
+ "Cevizli biber ezmesi": [
+  "fırın",
+  "blender"
+ ],
+ "Muhammara": [
+  "blender"
+ ],
+ "Zeytin ezmesi tost": [
+  "tost makinesi"
+ ],
+ "Labne dip": [],
+ "Çökelek ezmesi": [],
+ "Lor peynirli tabak": [],
+ "Peynir böreği tava": [
+  "ocak"
+ ],
+ "Yoğurtlu kuru köfte": [
+  "ocak"
+ ],
+ "Soğuk sandviç tavuklu": [
+  "ocak"
+ ],
+ "Ton sandviç": [],
+ "Jambonlu tost": [
+  "tost makinesi"
+ ],
+ "Hindi füme sandviç": [],
+ "Sebzeli dürüm": [
+  "ocak"
+ ],
+ "Falafel kasesi": [
+  "ocak"
+ ],
+ "Poke kase": [
+  "ocak"
+ ],
+ "Buddha bowl": [
+  "ocak"
+ ],
+ "Tavuklu kase": [
+  "ocak"
+ ],
+ "Yoğurtlu tavuk salatası": [
+  "ocak"
+ ],
+ "Mısırlı tavuk salatası": [
+  "ocak"
+ ],
+ "Mercimek salatası kırmızı": [
+  "ocak"
+ ],
+ "Haşlanmış patates salatası limonlu": [
+  "ocak"
+ ],
+ "Pancar tarator": [
+  "ocak"
+ ],
+ "Karnabahar püresi": [
+  "ocak"
+ ],
+ "Sebzeli pilav bulyonlu": [
+  "ocak"
+ ],
+ "Tarçınlı pirinç lapası": [
+  "ocak"
+ ],
+ "Hurmalı kek": [
+  "fırın"
+ ],
+ "Fındıklı sütlaç": [
+  "ocak"
+ ],
+ "Tahinli kurabiye": [
+  "fırın"
+ ],
+ "Pekmezli tahin": [],
+ "Pekmezli yulaf": [
+  "ocak"
+ ],
+ "Tahinli sütlü tatlı": [
+  "ocak"
+ ],
+ "Bal kabaklı puding": [
+  "ocak"
+ ],
+ "Tavuk kebabı fırında": [
+  "fırın"
+ ],
+ "Tavuk tikka": [
+  "fırın"
+ ],
+ "Tavuk kavurma": [
+  "ocak"
+ ],
+ "Mantarlı tavuk güveç": [
+  "ocak"
+ ],
+ "Tavuk but fırın baharatlı": [
+  "fırın"
+ ],
+ "Tavuk bonfile sarma": [
+  "ocak",
+  "fırın"
+ ],
+ "Tavuk kanat fırında baharatlı": [
+  "fırın"
+ ],
+ "Tavuk bacağı haşlama pilavlı": [
+  "ocak"
+ ],
+ "Tavuk ve sebze tava": [
+  "ocak"
+ ],
+ "Tavuk şnitzel peynirli": [
+  "ocak"
+ ],
+ "Köfteli patates": [
+  "ocak"
+ ],
+ "Izgara köfte soslu": [
+  "ızgara"
+ ],
+ "Mantarlı köfte": [
+  "ocak"
+ ],
+ "Peynirli köfte": [
+  "ocak"
+ ],
+ "Şiş köfte": [
+  "ızgara"
+ ],
+ "Sebzeli kıymalı güveç": [
+  "ocak"
+ ],
+ "Kıymalı pazı": [
+  "ocak"
+ ],
+ "Kıymalı mantar": [
+  "ocak"
+ ],
+ "Kıymalı brokoli": [
+  "ocak"
+ ],
+ "Etli patlıcan": [
+  "ocak"
+ ],
+ "Etli taze bakla": [
+  "ocak"
+ ],
+ "Etli mantar": [
+  "ocak"
+ ],
+ "Dana kavurma tavada": [
+  "ocak"
+ ],
+ "Sote et biberli": [
+  "ocak"
+ ],
+ "Dana bonfile sote": [
+  "ocak"
+ ],
+ "Kuzu güveç sebzeli": [
+  "ocak"
+ ],
+ "Kuzu kapama": [
+  "ocak"
+ ],
+ "Kuzu haşlama": [
+  "ocak"
+ ],
+ "Kuzu tandır pilavla": [
+  "ocak"
+ ],
+ "Et kavurma sandviç": [
+  "ocak"
+ ],
+ "Sucuk ızgara": [
+  "ocak",
+  "ızgara"
+ ],
+ "Sucuklu pilav": [
+  "ocak"
+ ],
+ "Pastırmalı yumurta": [
+  "ocak"
+ ],
+ "Pastırmalı kuru fasulye": [
+  "ocak"
+ ],
+ "Pastırmalı makarna": [
+  "ocak"
+ ],
+ "Sosisli omlet": [
+  "ocak"
+ ],
+ "Salamlı tost": [
+  "tost makinesi"
+ ],
+ "Hindili wrap": [],
+ "Humuslu tavuk dürüm": [
+  "ocak"
+ ],
+ "Çıtır karnabahar": [
+  "ocak"
+ ],
+ "Çıtır kabak": [
+  "ocak"
+ ],
+ "Çıtır patates": [
+  "fırın"
+ ],
+ "Peynirli patates": [
+  "ocak",
+  "fırın"
+ ],
+ "Baharatlı patates": [
+  "fırın"
+ ],
+ "Tereyağlı mısır": [
+  "ocak"
+ ],
+ "Közlenmiş mısır": [
+  "fırın",
+  "ızgara"
+ ],
+ "Kestane kebabı": [
+  "fırın"
+ ],
+ "Haşlama kestane": [
+  "ocak"
+ ],
+ "Leblebi tozu çorbası": [
+  "ocak",
+  "blender"
+ ],
+ "Balkabağı çorbası krema": [
+  "ocak",
+  "blender"
+ ],
+ "Domatesli pirinç çorbası": [
+  "ocak"
+ ],
+ "Sebzeli tavuk çorbası": [
+  "ocak"
+ ],
+ "Mercimek çorbası tavuklu": [
+  "ocak",
+  "blender"
+ ],
+ "Sebzeli noodle çorbası": [
+  "ocak"
+ ],
+ "Miso tarzı çorba": [
+  "ocak"
+ ],
+ "Lahana turşusu salatası": [],
+ "Çiğ börek kıymalı": [
+  "ocak"
+ ],
+ "Su böreği peynirli": [
+  "ocak"
+ ]
 }

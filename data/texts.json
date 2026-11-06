@@ -1,0 +1,2966 @@
+{
+ "Menemen": {
+  "desc": "Domates ve biber ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Omlet": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Mercimek çorbası": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Domates soslu makarna": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 2 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Sade pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Çoban salatası": {
+  "desc": "Domates, salatalık ve biber ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Patates kızartması": {
+  "desc": "Patates kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kızartmayı tel ızgarada dinlendir; kâğıt havlu altını yumuşatır."
+ },
+ "Yoğurtlu makarna": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 2 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Sebzeli güveç": {
+  "desc": "Et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 45 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Peynirli tost": {
+  "desc": "Peynir ve tereyağı ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Fırında balık": {
+  "desc": "Balık fırında pişirilir; 50 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Tavada balık": {
+  "desc": "Balık tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Balık buğulama": {
+  "desc": "Balık buğulama olarak pişirilir; 30 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Ton balıklı salata": {
+  "desc": "Marul, domates ve mısır ile hazırlanan, tok tutan salata.",
+  "tip": "Yeşillikleri kurulamak, sosun yapışması için en önemli adımdır."
+ },
+ "Ton balıklı makarna": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 2 kişilik.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Tavuk sote": {
+  "desc": "Tavuk göğsü yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 25 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Fırında tavuk but": {
+  "desc": "Tavuk but baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği; altındaki patates etin suyunu çeker.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Tavuklu pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tavuk çorbası": {
+  "desc": "Şehriye ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Kremalı mantarlı tavuk": {
+  "desc": "Tavuk göğsü ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Kıymalı makarna": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Karnıyarık": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patlıcan ve soğan etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Etli nohut": {
+  "desc": "Nohut ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Pişerken su eksilirse hep sıcak su ekle; soğuk su taneleri büzüştürür."
+ },
+ "Et sote": {
+  "desc": "Kuşbaşı et yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 65 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Kıymalı ıspanak": {
+  "desc": "Kıyma ile ıspanak pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kuru fasulye": {
+  "desc": "Kuru fasulye ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Pişerken su eksilirse hep sıcak su ekle; soğuk su taneleri büzüştürür."
+ },
+ "Nohut yemeği": {
+  "desc": "Nohut ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Yeşil mercimek yemeği": {
+  "desc": "Yeşil mercimek ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Bulgur pilavı": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde soğan ve biber var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Mercimek köftesi": {
+  "desc": "Haşlanmış mercimeğin bulgurla demlenip ılıkken yoğrulduğu, soğuk servis edilen mercimek köftesi.",
+  "tip": "Harcı ılıkken yoğur: sıcakken cıvık, soğukken dağılgan olur."
+ },
+ "Zeytinyağlı taze fasulye": {
+  "desc": "Zeytinyağlı, taze fasulye pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Yumurtalı ıspanak": {
+  "desc": "Ispanak ve soğan ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Zeytinyağlı pırasa": {
+  "desc": "Zeytinyağlı, pırasa ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kabak mücveri": {
+  "desc": "Rendelenmiş kabak ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Orta ateş idealdir: yüksek ateşte dışı yanar, içi çiğ kalır."
+ },
+ "Mantar sote": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp mantar buluşturulan pratik sote. Yaklaşık 15 dakika.",
+  "tip": "Tuzu baştan atma; et suyunu salıp sertleşebilir."
+ },
+ "Patatesli yumurta": {
+  "desc": "Patates ve soğan ile hazırlanan, 25 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Ezogelin çorbası": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Domates çorbası": {
+  "desc": "Domates ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Yayla çorbası": {
+  "desc": "Pirinç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Terbiyeyi ılıtmadan eklemek yoğurdu keser; bu adımı atlama."
+ },
+ "Mantar çorbası": {
+  "desc": "Mantar ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Sucuklu yumurta": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Haşlanmış yumurta": {
+  "desc": "Tereyağı ile hazırlanan, 25 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Yumurtalı ekmek": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Krep": {
+  "desc": "İnce hamurdan dökülen, istediğin iç harçla sarılan krep.",
+  "tip": "İlk hamur genelde kurban gider; tavanın sıcaklığını onunla ayarla."
+ },
+ "Piyaz": {
+  "desc": "Kuru fasulye ile hazırlanan, tok tutan salata.",
+  "tip": "Soğanı tuzla ovup durulamak keskinliğini alır."
+ },
+ "Cacık": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Mevsim salatası": {
+  "desc": "Marul, domates ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Sütlaç": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "İrmik helvası": {
+  "desc": "Irmik tereyağında uzun uzun kavrulup sıcak şerbetle buluşturulan, demlendirilerek tane tane olan helva.",
+  "tip": "Kavurma adımını kısa kesme; helvanın tadı o 12-15 dakikada oluşur."
+ },
+ "Muhallebi": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Patates püresi": {
+  "desc": "Patates haşlanıp ezilerek hazırlanan, tereyağıyla kremamsı hâle gelen püre.",
+  "tip": "Sütü ılıtarak eklemek pürenin yumuşak kalmasını sağlar."
+ },
+ "Sahanda yumurta": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Kaşarlı omlet": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Mantarlı omlet": {
+  "desc": "Mantar ile hazırlanan, 12 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Peynirli börek tavası": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, kızartılan ev böreği.",
+  "tip": "Yufkaların üzerini nemli bezle örtmezsen kenarlar kurur ve pişerken çatlar."
+ },
+ "Çılbır": {
+  "desc": "Tereyağı ile hazırlanan, 15 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Kuymak (Mıhlama)": {
+  "desc": "Mısır unu ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Yumurtalı kıymalı tava": {
+  "desc": "Soğan ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Pişi": {
+  "desc": "İnce açılan hamurun kızgın yağda kızartıldığı geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Patates salatası": {
+  "desc": "Patates ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Menemen soğanlı": {
+  "desc": "Domates ve biber ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Avokadolu tost": {
+  "desc": "Avokado, limon ve pul biber ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Sucuklu menemen": {
+  "desc": "Domates ve biber ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Bal kaymak kahvaltı tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Sulu malzemeleri ayrı köşeye koymak tabağın görüntüsünü korur."
+ },
+ "Sigara böreği": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, kızartılan ev böreği.",
+  "tip": "İç harcın suyunu iyice sık; ıslak harç yufkayı hamur bırakır."
+ },
+ "Pankek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Yulaf lapası": {
+  "desc": "Birkaç dakikada hazırlanan, tok tutan yulaf kâsesi.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Granola kasesi": {
+  "desc": "Yulaf ezmesi tabanı üzerine protein ve sebzeler yerleştirilen doyurucu kâse.",
+  "tip": "Sosu servise yakın ekle; önceden soslanan kâse sulanır."
+ },
+ "Simit peynir tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Ekmeği son anda dilimle; erken kesilen ekmek kurur."
+ },
+ "Düğün çorbası": {
+  "desc": "Yoğurt ile pişirilen, taneleri hissedilen ev usulü çorba. 5 kişilik, yaklaşık 60 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Tarhana çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 20 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Domatesli şehriye çorbası": {
+  "desc": "Şehriye ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Sebze çorbası": {
+  "desc": "Patates ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Brokoli çorbası": {
+  "desc": "Brokoli ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Kabak çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Havuç çorbası": {
+  "desc": "Havuç ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Mantar çorbası kremalı": {
+  "desc": "Mantar ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Lahana çorbası": {
+  "desc": "Lahana ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "İşkembe çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 165 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Kelle paça çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 330 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Şehriye çorbası tavuklu": {
+  "desc": "Şehriye ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Yoğurt çorbası": {
+  "desc": "Pirinç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Terbiyeyi ılıtmadan eklemek yoğurdu keser; bu adımı atlama."
+ },
+ "Arpa şehriye çorbası": {
+  "desc": "Arpa şehriye ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Terbiyeli tavuk çorbası": {
+  "desc": "Tavuk göğsü ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Bulgur çorbası": {
+  "desc": "Bulgur ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Sütlü mısır çorbası": {
+  "desc": "Mısır ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Kızdırılmış tereyağını tencereye dökersen tat daha eşit dağılır."
+ },
+ "Patates çorbası": {
+  "desc": "Patates ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Ayran aşı çorbası": {
+  "desc": "Yoğurt ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 55 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Tutmaç çorbası": {
+  "desc": "Yoğurt ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Mercimek çorbası limonlu": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Kremalı tavuk çorbası": {
+  "desc": "Tavuk göğsü ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Fasulye çorbası": {
+  "desc": "Kuru fasulye ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 75 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Nohut çorbası": {
+  "desc": "Havuç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 80 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Kış çorbası": {
+  "desc": "Havuç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Pırasa çorbası": {
+  "desc": "Pırasa ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Kızdırılmış tereyağını tencereye dökersen tat daha eşit dağılır."
+ },
+ "Ispanak çorbası": {
+  "desc": "Pirinç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Domates çorbası kremalı": {
+  "desc": "Domates ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Karnabahar çorbası": {
+  "desc": "Karnabahar ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Kabak çorbası kimyonlu": {
+  "desc": "Kabak ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Kırmızı biberli çorba": {
+  "desc": "Domates ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Etli sebze çorbası": {
+  "desc": "Patates ile pişirilen, taneleri hissedilen ev usulü çorba. 5 kişilik, yaklaşık 70 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Köfteli çorba": {
+  "desc": "Pirinç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Orman kebabı": {
+  "desc": "Kuşbaşı et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 60 dakikada hazır.",
+  "tip": "Mühürleme adımını atlama; etin rengini alması yemeğin tadının yarısıdır."
+ },
+ "Türlü": {
+  "desc": "Kuşbaşı et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patlıcan ve kabak birlikte yaklaşık 85 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Hünkar beğendi": {
+  "desc": "Kuşbaşı et baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patlıcan ve soğan etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Tas kebabı": {
+  "desc": "Kuşbaşı et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 70 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Kuzu tandır": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; soğan birlikte yaklaşık 180 dakikada hazır.",
+  "tip": "Kısık ateş uzun süre, yüksek ateş kısa süreden her zaman daha yumuşak et verir."
+ },
+ "Kuru köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Izgara köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "İzmir köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Kadınbudu köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Tavayı tek seferde doldurma; iki partide pişirmek daha iyi bir kabuk verir."
+ },
+ "Akçaabat köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, ızgarada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Kıymalı patates": {
+  "desc": "Kıyma ile patates pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kıymalı bamya": {
+  "desc": "Kıyma ile bamya pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kıymalı patlıcan musakka": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patlıcan ve domates etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Ankara tava": {
+  "desc": "Kuşbaşı et tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 65 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Dolma biber": {
+  "desc": "Biber içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Etli kuru fasulye": {
+  "desc": "Kuru fasulye ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 5 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Etli taze fasulye": {
+  "desc": "Taze fasulye ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Bir gece önceden ıslatmayı unuttuysan kaynar suda 1 saat bekletmek işe yarar."
+ },
+ "Etli bamya": {
+  "desc": "Kuşbaşı et ile bamya pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Etli bezelye": {
+  "desc": "Kuşbaşı et ile bezelye ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Etli ıspanak": {
+  "desc": "Kuşbaşı et ile ıspanak pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Etli kereviz": {
+  "desc": "Kuşbaşı et ile kereviz ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Etli pırasa": {
+  "desc": "Kuşbaşı et ile pırasa ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kapuska": {
+  "desc": "Kıyma önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; lahana ve soğan birlikte yaklaşık 60 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Karnabahar yemeği": {
+  "desc": "Kıyma ile karnabahar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Mantı": {
+  "desc": "İnce açılan hamura az harç konularak kapatılan, yoğurt ve kızgın yağla servis edilen mantı.",
+  "tip": "Tereyağını kararmadan, pul biber kırmızıya dönünce ocaktan al."
+ },
+ "Su böreği": {
+  "desc": "Peynir harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Böreği pişmeden kesmek, dilimlerin düzgün çıkmasını sağlar."
+ },
+ "Fırında köfte patates": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte; sosunda pişirilerek tamamlanır.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Etli güveç": {
+  "desc": "Kuşbaşı et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 90 dakikada hazır.",
+  "tip": "Mühürleme adımını atlama; etin rengini alması yemeğin tadının yarısıdır."
+ },
+ "Fırın kebabı": {
+  "desc": "Kuzu eti baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patates ve domates etin suyunu çeker.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Lahmacun": {
+  "desc": "Kıyma harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Pişer pişmez üzerine tereyağı sürmek kenarları yumuşatır."
+ },
+ "Pide kıymalı": {
+  "desc": "Kıyma harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Pide kaşarlı": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Fırın ne kadar sıcaksa taban o kadar çıtır olur; en yüksek derece şart."
+ },
+ "Adana kebap": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki soğan ve biber etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Tavuk şiş": {
+  "desc": "Tavuk göğsü baharatlı harçta bekletilip fırında pişirilen tepsi yemeği.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Döner tavası": {
+  "desc": "Kuşbaşı et tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 40 dakikada sofrada.",
+  "tip": "Tavayı kalabalık etme; parçalar arasında boşluk yoksa et kızarmaz, haşlanır."
+ },
+ "Islak hamburger": {
+  "desc": "Kıyma tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 30 dakikada sofrada.",
+  "tip": "Tavayı kalabalık etme; parçalar arasında boşluk yoksa et kızarmaz, haşlanır."
+ },
+ "Hamburger": {
+  "desc": "Kıyma tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 25 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Güveçte kuzu": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patlıcan ve biber birlikte yaklaşık 120 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Tavuk haşlama": {
+  "desc": "Tavuk göğsü kısık ateşte, berrak suyunda yavaşça haşlanır; suyu da ayrıca değerlendirilir.",
+  "tip": "Haşlama suyunu dökme; pilav ya da çorbada kullanınca tat belirgin biçimde artar."
+ },
+ "Tavuk izgara": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 35 dakikada sofrada.",
+  "tip": "Tavayı kalabalık etme; parçalar arasında boşluk yoksa et kızarmaz, haşlanır."
+ },
+ "Tavuk wrap": {
+  "desc": "Tavuk göğsü, marul ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Kremalı tavuk": {
+  "desc": "Tavuk göğsü ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Tavuk güveç": {
+  "desc": "Tavuk but önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 60 dakikada hazır.",
+  "tip": "Mühürleme adımını atlama; etin rengini alması yemeğin tadının yarısıdır."
+ },
+ "Tavuk dolma": {
+  "desc": "Soğan içine etli pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Tavuklu pilav kremalı": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü ve krema var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tavuk kanat": {
+  "desc": "Tavuk kanat baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Tavuk fajita": {
+  "desc": "Tavuk göğsü yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 30 dakika.",
+  "tip": "Tava yeterince kızmazsa malzeme suyunu salar; sotede yüksek ateş ve geniş tava esastır."
+ },
+ "Tavuk nugget": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Çıtır tavuk": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Tavuk topkapı": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 60 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Mantarlı tavuk sote": {
+  "desc": "Tavuk göğsü yüksek ateşte kızartılıp mantar buluşturulan pratik sote. Yaklaşık 30 dakika.",
+  "tip": "Tava yeterince kızmazsa malzeme suyunu salar; sotede yüksek ateş ve geniş tava esastır."
+ },
+ "Sebzeli tavuk": {
+  "desc": "Tavuk göğsü ile havuç ve biber pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Limonlu tavuk": {
+  "desc": "Tavuk but tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 70 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Fırın tavuk patates": {
+  "desc": "Tavuk but baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patates etin suyunu çeker.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Pilav üstü tavuk": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tavuk beyti": {
+  "desc": "Tavuk göğsü baharatlı harçta bekletilip fırında pişirilen tepsi yemeği.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Tavuk tantuni": {
+  "desc": "Tavuk göğsü, domates ve soğan ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Tavuk salata": {
+  "desc": "Marul, domates ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Cevizli tavuk": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 30 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Barbekü tavuk": {
+  "desc": "Tavuk but tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 75 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Kaşarlı tavuk": {
+  "desc": "Tavuk göğsü ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Hamsi tava": {
+  "desc": "Hamsi tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Hamsi pilavı": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde hamsi ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Levrek buğulama": {
+  "desc": "Levrek buğulama olarak pişirilir; 30 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Çupra ızgara": {
+  "desc": "Çupra ızgarada pişirilir; 25 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Somon ızgara": {
+  "desc": "Somon ızgarada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Fırında somon": {
+  "desc": "Somon fırında pişirilir; 25 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Karides güveç": {
+  "desc": "Et önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; mantar birlikte yaklaşık 30 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Kalamar tava": {
+  "desc": "Kalamar tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Midye dolma": {
+  "desc": "Soğan içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Sardalya ızgara": {
+  "desc": "Sardalya ızgarada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Uskumru ızgara": {
+  "desc": "Uskumru ızgarada pişirilir; 25 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Palamut buğulama": {
+  "desc": "Palamut buğulama olarak pişirilir; 35 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Alabalık fırında": {
+  "desc": "Alabalık fırında pişirilir; 30 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Balık çorbası": {
+  "desc": "Patates ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Ton balıklı sandviç": {
+  "desc": "Ton balığı, marul ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Zeytinyağlı enginar": {
+  "desc": "Zeytinyağlı, enginar ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı barbunya": {
+  "desc": "Zeytinyağlı, sebzelerle pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı bamya": {
+  "desc": "Zeytinyağlı, bamya pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı kereviz": {
+  "desc": "Zeytinyağlı, kereviz ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı ıspanak": {
+  "desc": "Zeytinyağlı, ıspanak pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı biber dolması": {
+  "desc": "Biber içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Zeytinyağlı yaprak sarma": {
+  "desc": "Asma yaprağı içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 6 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Zeytinyağlı fasulye pırasa": {
+  "desc": "Zeytinyağlı, pırasa ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı domates dolması": {
+  "desc": "Domates içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Zeytinyağlı kabak dolması": {
+  "desc": "Kabak içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Zeytinyağlı lahana sarması": {
+  "desc": "Lahana içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 6 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Zeytinyağlı patlıcan": {
+  "desc": "Zeytinyağlı, patlıcan pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "İmam bayıldı": {
+  "desc": "Zeytinyağlı, patlıcan pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Karnıyarık vejetaryen": {
+  "desc": "Patlıcan, soğan ve domates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Eşit kalınlıkta doğramak hepsinin aynı anda pişmesini sağlar."
+ },
+ "Fırında sebze": {
+  "desc": "Patates, havuç ve kabak zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Yüksek ısı kenarları karamelize eder; 180°C'de pişirirsen tat düz kalır."
+ },
+ "Kabak kızartması": {
+  "desc": "Kabak kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Patlıcan kızartması": {
+  "desc": "Patlıcan kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Patlıcan musakka": {
+  "desc": "Patlıcan, domates ve soğan zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Yüksek ısı kenarları karamelize eder; 180°C'de pişirirsen tat düz kalır."
+ },
+ "Ratatouille": {
+  "desc": "Zeytinyağlı, patlıcan ve kabak pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Karışık sebze sote": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp havuç ve kabak buluşturulan pratik sote. Yaklaşık 25 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Sebzeli çiğ köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Havuç tarator": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Blenderda uzun çekme; hafif pürüzlü doku mezeyi macun olmaktan kurtarır."
+ },
+ "Havuçlu kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Mücver": {
+  "desc": "Rendelenmiş kabak ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Sebzenin suyunu sıkmak mücverin dağılmaması için en kritik adımdır."
+ },
+ "Börülce salatası": {
+  "desc": "Börülce ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Kuru patlıcan dolması": {
+  "desc": "Kuru patlıcan içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Semizotu yemeği": {
+  "desc": "Zeytinyağlı, semizotu pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Gül kurusu pırasa": {
+  "desc": "Zeytinyağlı, pırasa ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kızartma sebze tabağı": {
+  "desc": "Kabak kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Türk usulü soslu mantar": {
+  "desc": "Zeytinyağlı, mantar pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Brokoli salatası": {
+  "desc": "Brokoli ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Karnabahar kızartması": {
+  "desc": "Karnabahar kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Kabak sote": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp kabak buluşturulan pratik sote. Yaklaşık 20 dakika.",
+  "tip": "Tuzu baştan atma; et suyunu salıp sertleşebilir."
+ },
+ "Mercimek köftesi tarifi": {
+  "desc": "Haşlanmış mercimeğin bulgurla demlenip ılıkken yoğrulduğu, soğuk servis edilen mercimek köftesi.",
+  "tip": "Yeşillikleri en sona bırak, erken eklenirse kararır."
+ },
+ "Fasulye piyazı": {
+  "desc": "Kuru fasulye ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Hummus": {
+  "desc": "Nohut ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Falafel": {
+  "desc": "Soğan kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Mercimek salatası": {
+  "desc": "Domates ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Barbunya pilaki": {
+  "desc": "Zeytinyağlı, havuç ve patates pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kuru fasulye pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde kuru fasulye ve soğan var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Nohutlu pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde nohut var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Kırmızı mercimekli bulgur": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde kırmızı mercimek ve soğan var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Mercimekli köfte": {
+  "desc": "Haşlanmış mercimeğin bulgurla demlenip ılıkken yoğrulduğu, soğuk servis edilen mercimek köftesi.",
+  "tip": "Harcı ılıkken yoğur: sıcakken cıvık, soğukken dağılgan olur."
+ },
+ "Bakla": {
+  "desc": "Bakla ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Taze bakla ezmesi": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Nohutlu ıspanak": {
+  "desc": "Nohut ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Nohut salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Fasulye salatası": {
+  "desc": "Kuru fasulye ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Şehriyeli pirinç pilavı": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde şehriye var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Domatesli pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde domates ve soğan var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Sebzeli pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç ve bezelye var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "İç pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde ciğer ve soğan var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Mantarlı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde mantar var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Kıymalı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde kıyma ve soğan var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Bulgur pilavı domatesli": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde domates ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Bulgur pilavı sebzeli": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç ve biber var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Arpa şehriye pilavı": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Spagetti bolonez": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Spagetti napoliten": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Carbonara": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Alfredo makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Fırın makarna": {
+  "desc": "Kremalı sosla harmanlanıp fırında üstü kızartılan makarna.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Tavuklu makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Sebzeli makarna": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Peynirli makarna": {
+  "desc": "Peynirli sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Pesto makarna": {
+  "desc": "Peynirli sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Lazanya": {
+  "desc": "Plakaların kıymalı sos ve beşamelle kat kat dizilip fırınlandığı lazanya; 6 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Erişte": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Eriştesi yoğurtlu": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Kıymalı erişte": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Noodle sebzeli": {
+  "desc": "Havuç ve lahana yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Tava yeterince kızgın değilse sebzeler suyunu salar; yüksek ateş şart."
+ },
+ "Makarna salatası": {
+  "desc": "Mısır, domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Mantarlı makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Fırında patates": {
+  "desc": "Patates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Patates köftesi": {
+  "desc": "Patates harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Tavayı tek seferde doldurma; iki partide pişirmek daha iyi bir kabuk verir."
+ },
+ "Patates oturtma": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patates ve domates etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Elbasan tava": {
+  "desc": "Kıyma önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; baharatlarla birlikte yaklaşık 45 dakikada hazır.",
+  "tip": "Kısık ateş uzun süre, yüksek ateş kısa süreden her zaman daha yumuşak et verir."
+ },
+ "Poğaça": {
+  "desc": "Mayasız, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Un miktarı havanın nemine göre değişir; hamurun kıvamına bak, ölçüye körü körüne uyma."
+ },
+ "Açma": {
+  "desc": "Mayalı, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Un miktarı havanın nemine göre değişir; hamurun kıvamına bak, ölçüye körü körüne uyma."
+ },
+ "Simit": {
+  "desc": "Mayalı, 6 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Mayanın köpürüp köpürmediğini kontrol etmek, boşa giden bir tepsiyi engeller."
+ },
+ "Ekmek": {
+  "desc": "Mayalı, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Fırını önceden ısıtmadan hamur işi koyma; hamur kabarmadan kurur."
+ },
+ "Pizza": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Gözleme": {
+  "desc": "İnce açılan hamurun içine beyaz peynir konup sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Harcın suyunu iyice süz; ıslak harç hamuru deler."
+ },
+ "Börek rulo": {
+  "desc": "Kıyma harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Böreği pişmeden kesmek, dilimlerin düzgün çıkmasını sağlar."
+ },
+ "Çiğ börek": {
+  "desc": "İnce açılan hamurun içine kıyma konup kızgın yağda kızartıldığı geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Kıymalı börek": {
+  "desc": "Kıyma harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Yufkaların üzerini nemli bezle örtmezsen kenarlar kurur ve pişerken çatlar."
+ },
+ "Ispanaklı börek": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Yufkaların üzerini nemli bezle örtmezsen kenarlar kurur ve pişerken çatlar."
+ },
+ "Kıymalı pide": {
+  "desc": "Kıyma harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Mantı yufkadan": {
+  "desc": "İnce açılan hamura az harç konularak kapatılan, yoğurt ve kızgın yağla servis edilen mantı.",
+  "tip": "Harcı az koymak mantının suda açılmamasının tek sırrı."
+ },
+ "Tava ekmeği": {
+  "desc": "İnce açılan hamurun sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Sacı iyice kızdırmadan hamuru koyma; yavaş pişen hamur sertleşir."
+ },
+ "Yağlama": {
+  "desc": "İnce açılan hamurun içine kıyma konup sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Sacı iyice kızdırmadan hamuru koyma; yavaş pişen hamur sertleşir."
+ },
+ "Katmer": {
+  "desc": "İnce açılan hamurun sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Sacı iyice kızdırmadan hamuru koyma; yavaş pişen hamur sertleşir."
+ },
+ "Gavurdağı salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Kısır": {
+  "desc": "Domates ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Yoğurtlu semizotu": {
+  "desc": "Zeytinyağlı, semizotu pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Haydari": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Ezme": {
+  "desc": "Biber ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Babaganuş": {
+  "desc": "Patlıcan ezilerek hazırlanan, közün dumanlı tadını taşıyan soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Soğan salatası": {
+  "desc": "Mevsim sebzeleri ile hazırlanan, hafif salata.",
+  "tip": "Soğanı tuzla ovup durulamak keskinliğini alır."
+ },
+ "Roka salatası": {
+  "desc": "Roka ve domates ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Akdeniz salatası": {
+  "desc": "Marul, domates ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Yeşillikleri kurulamak, sosun yapışması için en önemli adımdır."
+ },
+ "Sezar salata": {
+  "desc": "Marul ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Yunan salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Patlıcan salatası": {
+  "desc": "Patlıcan ve biber ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Havuç salatası": {
+  "desc": "Havuç ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Çiğ köfte salatası": {
+  "desc": "Marul ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Rus salatası": {
+  "desc": "Patates, havuç ve bezelye ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Kuru domates salatası": {
+  "desc": "Domates ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Lahana salatası": {
+  "desc": "Lahana ve havuç ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Mor lahana salatası": {
+  "desc": "Mor lahana ve havuç ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Fasulye ezmesi": {
+  "desc": "Kuru fasulye ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Acılı ezme": {
+  "desc": "Biber ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Blenderda uzun çekme; hafif pürüzlü doku mezeyi macun olmaktan kurtarır."
+ },
+ "Atom": {
+  "desc": "Acı biber ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Humus tavuklu": {
+  "desc": "Nohut ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Cacık nane": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Mısır salatası": {
+  "desc": "Mısır ve domates ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Baklava": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Sıcak tatlı + soğuk şerbet kuralına uyarsan tatlı asla hamur kalmaz."
+ },
+ "Kadayıf": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Sıcak tatlı + soğuk şerbet kuralına uyarsan tatlı asla hamur kalmaz."
+ },
+ "Revani": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Sıcak tatlı + soğuk şerbet kuralına uyarsan tatlı asla hamur kalmaz."
+ },
+ "Şekerpare": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Dinlenme süresi tarifin parçasıdır; hemen servis edilen şerbetli tatlı kuru kalır."
+ },
+ "Lokma": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Dinlenme süresi tarifin parçasıdır; hemen servis edilen şerbetli tatlı kuru kalır."
+ },
+ "Tulumba": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Sıcak tatlı + soğuk şerbet kuralına uyarsan tatlı asla hamur kalmaz."
+ },
+ "Aşure": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Nişastayı mutlaka soğuk sütte çöz; sıcak süte dökersen topaklanır."
+ },
+ "Güllaç": {
+  "desc": "Fırında kızarıp soğuk şerbetle buluşan geleneksel şerbetli tatlı.",
+  "tip": "Şerbeti azar azar gezdir; tek seferde dökmek bir bölgeyi fazla ıslatır."
+ },
+ "Kazandibi": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen fırınlanmış klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Tavuk göğsü tatlısı": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Profiterol": {
+  "desc": "Katlar hâlinde dizilip buzdolabında dinlendirilen soğuk pasta.",
+  "tip": "Sıcak bıçakla dilimlemek sunumu tamamen değiştirir."
+ },
+ "Trileçe": {
+  "desc": "Sütün un ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Nişastayı mutlaka soğuk sütte çöz; sıcak süte dökersen topaklanır."
+ },
+ "Tiramisu": {
+  "desc": "Katlar hâlinde dizilip buzdolabında dinlendirilen soğuk pasta.",
+  "tip": "Krema ve peynir oda sıcaklığında olursa karışım pürüzsüz olur."
+ },
+ "Cheesecake": {
+  "desc": "Fırında pişip yavaşça soğutulan kremamsı cheesecake.",
+  "tip": "Krema ve peynir oda sıcaklığında olursa karışım pürüzsüz olur."
+ },
+ "San Sebastian cheesecake": {
+  "desc": "Fırında pişip yavaşça soğutulan kremamsı cheesecake.",
+  "tip": "Sıcak bıçakla dilimlemek sunumu tamamen değiştirir."
+ },
+ "Brownie": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Islak kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Sade kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Portakallı kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Limonlu kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Muzlu kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Elmalı turta": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Elmalı kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Un kurabiyesi": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Kurabiyeyi fırında fazla tutma; soğurken sertleşeceğini unutma."
+ },
+ "Kurabiye tereyağlı": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Hamuru dinlendirmek şeklini koruması için gerekli."
+ },
+ "Çikolatalı kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Hamuru dinlendirmek şeklini koruması için gerekli."
+ },
+ "Sütlü irmik helvası": {
+  "desc": "Irmik tereyağında uzun uzun kavrulup sıcak şerbetle buluşturulan, demlendirilerek tane tane olan helva.",
+  "tip": "Kavurma adımını kısa kesme; helvanın tadı o 12-15 dakikada oluşur."
+ },
+ "Un helvası": {
+  "desc": "Un tereyağında uzun uzun kavrulup sıcak şerbetle buluşturulan, demlendirilerek tane tane olan helva.",
+  "tip": "Şerbet sıcak, irmik sıcak olmalı; soğuk şerbet helvayı hamurlaştırır."
+ },
+ "Sütlaç fırın": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen fırınlanmış klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Supangle": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Keşkül": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Nişastayı mutlaka soğuk sütte çöz; sıcak süte dökersen topaklanır."
+ },
+ "Zerde": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Elma tatlısı": {
+  "desc": "Elma kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Limon hem rengi korur hem tatlılığı dengeler."
+ },
+ "Ayva tatlısı": {
+  "desc": "Ayva kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Kaynatma, kısık ateşte pişir; yüksek ateş meyveyi dağıtır."
+ },
+ "Kabak tatlısı": {
+  "desc": "Meyve kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Limon hem rengi korur hem tatlılığı dengeler."
+ },
+ "Dondurma": {
+  "desc": "Katlar hâlinde dizilip buzdolabında dinlendirilen soğuk pasta.",
+  "tip": "Krema ve peynir oda sıcaklığında olursa karışım pürüzsüz olur."
+ },
+ "Meyve salatası": {
+  "desc": "Mevsim sebzeleri ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Çilekli puding": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Kakaolu puding": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Çikolata soslu muz": {
+  "desc": "Muz ile hazırlanan, birkaç dakikada kurulan hafif tatlı.",
+  "tip": "Meyveleri eşit boyda doğramak hem görüntüyü hem tadı düzeltir."
+ },
+ "Lokum": {
+  "desc": "Şeker şurubunun nişastayla uzun uzun pişirilip dinlendirilerek kesildiği şekerleme.",
+  "tip": "Bir gece dinlendirmeden kesme, dağılır."
+ },
+ "Patlamış mısır": {
+  "desc": "Tencerede patlatılan, sinema kokulu ev yapımı mısır.",
+  "tip": "Patlama sesleri seyrelince hemen ocaktan al, yoksa alttakiler yanar."
+ },
+ "Humuslu sandviç": {
+  "desc": "Nohut ve tahin ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Sucuklu sandviç": {
+  "desc": "Sucuk ve kaşar ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Peynirli dürüm": {
+  "desc": "Kaşar ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Tavuk dürüm": {
+  "desc": "Tavuk göğsü, domates ve marul ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Köfte ekmek": {
+  "desc": "Kıyma, domates ve soğan ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Balık ekmek": {
+  "desc": "Balık, marul ve soğan ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Tost sucuklu": {
+  "desc": "Sucuk ve kaşar ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Karışık tost": {
+  "desc": "Kaşar, sucuk ve domates ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Ev yapımı cips": {
+  "desc": "Patates kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Soğan halkası": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Mozzarella stick": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Peynir tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Ekmeği son anda dilimle; erken kesilen ekmek kurur."
+ },
+ "Kuzu pirzola ızgara": {
+  "desc": "Pirzola baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Biftek tava": {
+  "desc": "Malzemeler ile pişen ev usulü tencere yemeği; 2 kişilik, yaklaşık 30 dakika.",
+  "tip": "Suyu azar azar ekle; eksik su sonradan tamamlanır, fazlası geri alınamaz."
+ },
+ "Kaburga fırında": {
+  "desc": "Soğan zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Kuzu incik": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; soğan ve havuç birlikte yaklaşık 185 dakikada hazır.",
+  "tip": "Mühürleme adımını atlama; etin rengini alması yemeğin tadının yarısıdır."
+ },
+ "Kavurma": {
+  "desc": "Kuşbaşı et yüksek ateşte kızartılıp baharatlarla buluşturulan pratik sote. Yaklaşık 90 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Çoban kavurma": {
+  "desc": "Kuşbaşı et yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 45 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Et döner": {
+  "desc": "Dana eti tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 135 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Tavuk döner": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 75 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Patlıcan kebabı": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patlıcan ve domates etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Beyti kebap": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki domates etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "İskender": {
+  "desc": "Dana eti tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 50 dakikada sofrada.",
+  "tip": "Tavayı kalabalık etme; parçalar arasında boşluk yoksa et kızarmaz, haşlanır."
+ },
+ "Tepsi kebabı": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki soğan ve domates etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Kağıt kebabı": {
+  "desc": "Kuşbaşı et baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patates ve domates etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Testi kebabı": {
+  "desc": "Kuşbaşı et baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki soğan ve domates etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Tandır kebabı": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; soğan birlikte yaklaşık 325 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Ciğer tava": {
+  "desc": "Ciğer tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 20 dakikada sofrada.",
+  "tip": "Tavayı kalabalık etme; parçalar arasında boşluk yoksa et kızarmaz, haşlanır."
+ },
+ "Ciğer sarma": {
+  "desc": "Kırmızı toz biber içine etli pirinç harcı doldurularak pişirilen dolma; 3 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Kokoreç tava": {
+  "desc": "Ciğer tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 40 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Kelle sögüş": {
+  "desc": "Kuzu eti tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 40 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Dana haşlama": {
+  "desc": "Dana eti kısık ateşte, berrak suyunda yavaşça haşlanır; suyu da ayrıca değerlendirilir.",
+  "tip": "Köpüğü almak suyun berrak olması için şart."
+ },
+ "Rosto": {
+  "desc": "Dana eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 120 dakikada hazır.",
+  "tip": "Ertesi gün daha lezzetli olur; akşamdan pişirip dinlendirebilirsin."
+ },
+ "Fırında bütün tavuk": {
+  "desc": "Bütün tavuk baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği; altındaki patates etin suyunu çeker.",
+  "tip": "Fırının son 10 dakikasını kapaksız yapmak, hem yumuşak hem kızarmış bir sonuç verir."
+ },
+ "Tavuk sarma": {
+  "desc": "Sebze içine etli pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Tavuk schnitzel": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Tavuk bulgur pilavı": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü ve soğan var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tavuk sote biberli": {
+  "desc": "Tavuk göğsü yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 30 dakika.",
+  "tip": "Tava yeterince kızmazsa malzeme suyunu salar; sotede yüksek ateş ve geniş tava esastır."
+ },
+ "Soslu tavuk": {
+  "desc": "Tavuk göğsü ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Tavuk pirzola": {
+  "desc": "Tavuk göğsü baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği.",
+  "tip": "Marine süresi uzadıkça tat içeri işler; akşamdan hazırlarsan fark belirgin olur."
+ },
+ "Kıymalı patates oturtma": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patates ve soğan etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Hasan paşa köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Tavayı tek seferde doldurma; iki partide pişirmek daha iyi bir kabuk verir."
+ },
+ "Sultan kebabı": {
+  "desc": "Kıyma baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki patlıcan ve domates etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Soğan dolması": {
+  "desc": "Domates içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Kabak dolması etli": {
+  "desc": "Kabak içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Patlıcan dolması": {
+  "desc": "Biber içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Lahana dolması etli": {
+  "desc": "Lahana içine etli pirinç harcı doldurularak pişirilen dolma; 6 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Yaprak sarma etli": {
+  "desc": "Asma yaprağı içine etli pirinç harcı doldurularak pişirilen dolma; 6 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Etli yeşil mercimek": {
+  "desc": "Yeşil mercimek ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Etli nohut yemeği": {
+  "desc": "Nohut ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Pişerken su eksilirse hep sıcak su ekle; soğuk su taneleri büzüştürür."
+ },
+ "Etli barbunya": {
+  "desc": "Barbunya ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Kıymalı kabak": {
+  "desc": "Kıyma ile kabak pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Kıymalı karnabahar": {
+  "desc": "Kıyma ile karnabahar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Kıymalı ıspanak yemeği": {
+  "desc": "Kıyma ile ıspanak pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kıymalı pırasa": {
+  "desc": "Kıyma ile pırasa ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Kıymalı taze fasulye": {
+  "desc": "Taze fasulye ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Kıymalı bezelye": {
+  "desc": "Kıyma ile bezelye ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Kıymalı enginar": {
+  "desc": "Kıyma ile enginar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Etli kabak": {
+  "desc": "Kuşbaşı et ile kabak pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Etli lahana": {
+  "desc": "Kuşbaşı et ile lahana pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Etli bakla": {
+  "desc": "Bakla ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Pişerken su eksilirse hep sıcak su ekle; soğuk su taneleri büzüştürür."
+ },
+ "Etli enginar": {
+  "desc": "Kuşbaşı et ile enginar ve havuç pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Kahvaltı tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Peyniri servisten 15 dakika önce dolaptan çıkarmak tadını belirgin biçimde açar."
+ },
+ "Kuru kaşarlı omlet": {
+  "desc": "Tereyağı ile hazırlanan, 10 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Yumurtalı patates": {
+  "desc": "Patates ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Pırasalı omlet": {
+  "desc": "Pırasa ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Ispanaklı yumurta": {
+  "desc": "Ispanak ve soğan ile hazırlanan, 15 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Domatesli yumurta": {
+  "desc": "Domates ve biber ile hazırlanan, 15 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Mantarlı yumurta": {
+  "desc": "Mantar ile hazırlanan, 15 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Peynirli yumurta": {
+  "desc": "Tereyağı ile hazırlanan, 12 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Hamur kızartması": {
+  "desc": "Malzeme kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Çökelekli gözleme": {
+  "desc": "İnce açılan hamurun içine çökelek konup sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Patatesli gözleme": {
+  "desc": "İnce açılan hamurun içine patates konup sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Kaşarlı sandviç": {
+  "desc": "Kaşar ve tereyağı ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Avokado ezmesi": {
+  "desc": "Sebze ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Yulaflı pankek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Muzlu yulaf": {
+  "desc": "Birkaç dakikada hazırlanan, tok tutan yulaf kâsesi.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Gece yulafı": {
+  "desc": "Gece buzdolabında hazırlanan, sabah hazır bulunan doyurucu kâse.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Chia yerine yulaflı puding": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Peynirli krep": {
+  "desc": "İnce hamurdan dökülen, istediğin iç harçla sarılan krep.",
+  "tip": "Pankeki spatulayla bastırma, içindeki hava kaçar."
+ },
+ "Ev yapımı granola": {
+  "desc": "Birkaç dakikada hazırlanan, tok tutan yulaf kâsesi.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Mercimekli kahvaltı köftesi": {
+  "desc": "Haşlanmış mercimeğin bulgurla demlenip ılıkken yoğrulduğu, soğuk servis edilen mercimek köftesi.",
+  "tip": "Yeşillikleri en sona bırak, erken eklenirse kararır."
+ },
+ "Pazı çorbası": {
+  "desc": "Pazı ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Kuşkonmaz çorbası": {
+  "desc": "Kuşkonmaz ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Pancar çorbası": {
+  "desc": "Pancar ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 45 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Tatlı patates çorbası": {
+  "desc": "Tatlı patates ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Mercimek çorbası havuçlu": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Soğan çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 50 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Minestrone": {
+  "desc": "Havuç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 45 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Tavuk suyu çorba": {
+  "desc": "Şehriye ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 60 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Mercimekli ıspanak çorbası": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Yayla çorbası pirinçli": {
+  "desc": "Pirinç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Terbiyeyi ılıtmadan eklemek yoğurdu keser; bu adımı atlama."
+ },
+ "Sebzeli omlet fırında": {
+  "desc": "Biber ve domates ile hazırlanan, 30 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Muffin yumurta": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Kıymalı gözleme": {
+  "desc": "İnce açılan hamurun içine kıyma konup sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Harcın suyunu iyice süz; ıslak harç hamuru deler."
+ },
+ "Mıhlama peynirli": {
+  "desc": "Mısır unu ile hazırlanan, 15 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Bazlama": {
+  "desc": "İnce açılan hamurun sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Pitta ekmeği": {
+  "desc": "İnce açılan hamurun sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Tortilla": {
+  "desc": "İnce açılan hamurun sacda pişirildiği geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Quesadilla": {
+  "desc": "Kaşar, tavuk göğsü ve biber ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Burrito": {
+  "desc": "Kıyma, pirinç ve fasulye konservesi ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Taco": {
+  "desc": "Kıyma, domates ve marul ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Nachos": {
+  "desc": "Kaşar, domates ve fasulye konservesi ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Falafel dürüm": {
+  "desc": "Nohut, maydanoz ve soğan ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Hummus tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Ekmeği son anda dilimle; erken kesilen ekmek kurur."
+ },
+ "Fava": {
+  "desc": "Sebze ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Soslu patates": {
+  "desc": "Zeytinyağlı, patates pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Cevizli ıspanak salatası": {
+  "desc": "Ispanak ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Tavuklu sezar salata": {
+  "desc": "Marul ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Kinoa salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Kuskus salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Tabule": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Pancar salatası": {
+  "desc": "Pancar ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Kabak salatası": {
+  "desc": "Kabak ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Kereviz salatası": {
+  "desc": "Kereviz ve havuç ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Kırmızı lahana salatası": {
+  "desc": "Mor lahana, havuç ve mısır ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Turp salatası": {
+  "desc": "Turp ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Zeytin salatası": {
+  "desc": "Mevsim sebzeleri ile hazırlanan, hafif salata.",
+  "tip": "Soğanı tuzla ovup durulamak keskinliğini alır."
+ },
+ "Yeşil salata": {
+  "desc": "Marul ve salatalık ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Tavuklu avokado salatası": {
+  "desc": "Domates ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Ton balıklı mısır salatası": {
+  "desc": "Mısır konservesi ve marul ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Peynirli makarna salatası": {
+  "desc": "Domates ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Pirinç salatası": {
+  "desc": "Mısır konservesi ve havuç ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Bulgur salatası": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Soğanı tuzla ovup durulamak keskinliğini alır."
+ },
+ "Nohutlu salata": {
+  "desc": "Domates ve salatalık ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Mercimek köfte tabağı": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Ekmeği son anda dilimle; erken kesilen ekmek kurur."
+ },
+ "Cız bız": {
+  "desc": "Sosis tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 30 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Sosisli sandviç": {
+  "desc": "Sosis, hamburger ekmeği ve ketçap ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Pizza tost": {
+  "desc": "Kaşar, sucuk ve domates sosu ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Mini pizza": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Pişer pişmez üzerine tereyağı sürmek kenarları yumuşatır."
+ },
+ "Sebzeli pizza": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Pizza margarita": {
+  "desc": "Harç harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Pişer pişmez üzerine tereyağı sürmek kenarları yumuşatır."
+ },
+ "Pide ekmeği tavada": {
+  "desc": "Harç harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Pişer pişmez üzerine tereyağı sürmek kenarları yumuşatır."
+ },
+ "Simit poğaça": {
+  "desc": "Mayasız, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Fırını önceden ısıtmadan hamur işi koyma; hamur kabarmadan kurur."
+ },
+ "Tuzlu kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Kurabiyeyi fırında fazla tutma; soğurken sertleşeceğini unutma."
+ },
+ "Zeytinli poğaça": {
+  "desc": "Mayasız, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Un miktarı havanın nemine göre değişir; hamurun kıvamına bak, ölçüye körü körüne uyma."
+ },
+ "Patatesli poğaça": {
+  "desc": "Mayasız, 8 kişilik ev yapımı hamur işi; dışı altın rengi, içi yumuşak.",
+  "tip": "Fırını önceden ısıtmadan hamur işi koyma; hamur kabarmadan kurur."
+ },
+ "Cevizli kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Kurabiyeyi fırında fazla tutma; soğurken sertleşeceğini unutma."
+ },
+ "Fıstıklı kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Hamuru dinlendirmek şeklini koruması için gerekli."
+ },
+ "Hindistan cevizli kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Hamuru dinlendirmek şeklini koruması için gerekli."
+ },
+ "Fıstık ezmeli kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Bisküvili pasta": {
+  "desc": "Katlar hâlinde dizilip buzdolabında dinlendirilen soğuk pasta.",
+  "tip": "Krema ve peynir oda sıcaklığında olursa karışım pürüzsüz olur."
+ },
+ "Mozaik pasta": {
+  "desc": "Katlar hâlinde dizilip buzdolabında dinlendirilen soğuk pasta.",
+  "tip": "Krema ve peynir oda sıcaklığında olursa karışım pürüzsüz olur."
+ },
+ "Çikolatalı sufle": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Çikolatalı kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Vişneli kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Cevizli kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Yoğurtlu kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Kakaolu kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Elmalı kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Cheesecake limonlu": {
+  "desc": "Fırında pişip yavaşça soğutulan kremamsı cheesecake.",
+  "tip": "Buzdolabı süresini kısaltma; tatlının kıvamı o sürede oturur."
+ },
+ "Fırınlı sütlaç": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen fırınlanmış klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Sütlü tatlı": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Bademli muhallebi": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Tavuk göğsü muhallebi": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Keşkül fıstıklı": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Nişastayı mutlaka soğuk sütte çöz; sıcak süte dökersen topaklanır."
+ },
+ "Pirinç unlu muhallebi": {
+  "desc": "Sütün pirinç unu ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Cevizli lokum": {
+  "desc": "Şeker şurubunun nişastayla uzun uzun pişirilip dinlendirilerek kesildiği şekerleme.",
+  "tip": "Pişirme süresini kısaltma; kıvam ancak uzun pişirmeyle oturur."
+ },
+ "Fındık ezmeli krep": {
+  "desc": "İnce hamurdan dökülen, istediğin iç harçla sarılan krep.",
+  "tip": "Hamuru dinlendirmek, dokunun pürüzsüz olması için gerçekten fark yaratır."
+ },
+ "Çikolatalı krep": {
+  "desc": "İnce hamurdan dökülen, istediğin iç harçla sarılan krep.",
+  "tip": "Hamuru dinlendirmek, dokunun pürüzsüz olması için gerçekten fark yaratır."
+ },
+ "Waffle": {
+  "desc": "Kabarık, yumuşak pankek; kahvaltının tatlı tarafı.",
+  "tip": "Hamuru dinlendirmek, dokunun pürüzsüz olması için gerçekten fark yaratır."
+ },
+ "French toast": {
+  "desc": "Kabarık, yumuşak pankek; kahvaltının tatlı tarafı.",
+  "tip": "Pankeki spatulayla bastırma, içindeki hava kaçar."
+ },
+ "Bal kabaklı kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Unu kattıktan sonra fazla karıştırma, kek lastik gibi olur."
+ },
+ "Muzlu puding": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Sıcakken streç filmi yüzeye değdirmek üstte kabuk oluşmasını engeller."
+ },
+ "Meyveli yoğurt": {
+  "desc": "Çilek ile hazırlanan, birkaç dakikada kurulan hafif tatlı.",
+  "tip": "Kararan meyvelere limon sıkmak rengi korur."
+ },
+ "Fırında elma": {
+  "desc": "Elma kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Meyveyi kendi suyunda soğutmak, tadın içine işlemesini sağlar."
+ },
+ "Armut kompostosu": {
+  "desc": "Armut kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Limon hem rengi korur hem tatlılığı dengeler."
+ },
+ "Erik komposto": {
+  "desc": "Erik kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Limon hem rengi korur hem tatlılığı dengeler."
+ },
+ "Vişne komposto": {
+  "desc": "Vişne kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Meyveyi kendi suyunda soğutmak, tadın içine işlemesini sağlar."
+ },
+ "Hoşaf": {
+  "desc": "Kuru erik kendi şerbetinde pişirilip soğutulan hafif tatlı.",
+  "tip": "Kaynatma, kısık ateşte pişir; yüksek ateş meyveyi dağıtır."
+ },
+ "İncir tatlısı": {
+  "desc": "Malzemeler ile pişen ev usulü tencere yemeği; 6 kişilik, yaklaşık 140 dakika.",
+  "tip": "Dinlendirmek tatların birbirine geçmesini sağlar; 10 dakika yeterli."
+ },
+ "Kestane şekeri": {
+  "desc": "Şeker şurubunun nişastayla uzun uzun pişirilip dinlendirilerek kesildiği şekerleme.",
+  "tip": "Pişirme süresini kısaltma; kıvam ancak uzun pişirmeyle oturur."
+ },
+ "Elmalı tarçınlı yulaf": {
+  "desc": "Birkaç dakikada hazırlanan, tok tutan yulaf kâsesi.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Kakaolu yulaf barı": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Bademli kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Susamlı kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Nişastalı kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Şakşuka": {
+  "desc": "Zeytinyağlı, patlıcan ve biber pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Shakshuka": {
+  "desc": "Domates ve biber ile hazırlanan, 25 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Risotto mantarlı": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde mantar ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Risotto domatesli": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde domates ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Tavuklu köri": {
+  "desc": "Soğan yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Malzemeleri önceden doğrayıp hazırlamak bu tarifin yarısıdır."
+ },
+ "Sebzeli köri": {
+  "desc": "Karnabahar, patates ve havuç yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Sarımsak ve baharatı en sona bırak; erken eklenirse acılaşır."
+ },
+ "Sebzeli noodle": {
+  "desc": "Havuç, lahana ve biber yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Malzemeleri önceden doğrayıp hazırlamak bu tarifin yarısıdır."
+ },
+ "Tavuklu noodle": {
+  "desc": "Havuç yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Malzemeleri önceden doğrayıp hazırlamak bu tarifin yarısıdır."
+ },
+ "Kızarmış pirinç": {
+  "desc": "Havuç ve bezelye yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Malzemeleri önceden doğrayıp hazırlamak bu tarifin yarısıdır."
+ },
+ "Tavuklu kızarmış pirinç": {
+  "desc": "Bezelye yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Sarımsak ve baharatı en sona bırak; erken eklenirse acılaşır."
+ },
+ "Karidesli noodle": {
+  "desc": "Taze soğan yüksek ateşte hızla çevrilerek pişirilen, sosla harmanlanan tabak.",
+  "tip": "Malzemeleri önceden doğrayıp hazırlamak bu tarifin yarısıdır."
+ },
+ "Karidesli makarna": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Spagetti aglio olio": {
+  "desc": "Sade sosla harmanlanan, al dente haşlanmış makarna. 2 kişilik.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Penne arrabbiata": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Mantarlı spagetti": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Dört peynirli makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Tavuklu penne": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Kıymalı spagetti": {
+  "desc": "Domates soslu sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Makarna fırında peynirli": {
+  "desc": "Kremalı sosla harmanlanıp fırında üstü kızartılan makarna.",
+  "tip": "Haşlama suyunu dökme: sosu bağlayan asıl malzeme o nişastalı sudur."
+ },
+ "Kremalı kabak makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Mac and cheese": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 4 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Sebzeli kuskus": {
+  "desc": "Kuskus ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç ve kabak var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tavuklu kuskus": {
+  "desc": "Kuskus ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü ve havuç var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Kinoa pilavı": {
+  "desc": "Kinoa ile yapılan, tane tane olması için demlendirilen pilav; içinde soğan ve havuç var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Karabuğday pilavı": {
+  "desc": "Karabuğday ile yapılan, tane tane olması için demlendirilen pilav; içinde soğan var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Sebzeli bulgur": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç ve biber var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Tavuklu bulgur": {
+  "desc": "Bulgur ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk göğsü ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Mercimekli pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde yeşil mercimek ve soğan var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Mantar sote sarımsaklı": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp mantar buluşturulan pratik sote. Yaklaşık 15 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Brokoli sote": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp brokoli buluşturulan pratik sote. Yaklaşık 15 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Kuşkonmaz tavada": {
+  "desc": "Sebzeler yüksek ateşte kızartılıp kuşkonmaz buluşturulan pratik sote. Yaklaşık 15 dakika.",
+  "tip": "Tava yeterince kızmazsa malzeme suyunu salar; sotede yüksek ateş ve geniş tava esastır."
+ },
+ "Fırında kabak": {
+  "desc": "Kabak zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Fırında karnabahar": {
+  "desc": "Karnabahar zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Yüksek ısı kenarları karamelize eder; 180°C'de pişirirsen tat düz kalır."
+ },
+ "Fırında brokoli peynirli": {
+  "desc": "Brokoli zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Eşit kalınlıkta doğramak hepsinin aynı anda pişmesini sağlar."
+ },
+ "Fırında tatlı patates": {
+  "desc": "Tatlı patates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Eşit kalınlıkta doğramak hepsinin aynı anda pişmesini sağlar."
+ },
+ "Patates graten": {
+  "desc": "Patates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Eşit kalınlıkta doğramak hepsinin aynı anda pişmesini sağlar."
+ },
+ "Patates püresi tereyağlı": {
+  "desc": "Patates haşlanıp ezilerek hazırlanan, tereyağıyla kremamsı hâle gelen püre.",
+  "tip": "Blender püreyi sakızlaştırır; el ezicisi ya da süzgeç kullan."
+ },
+ "Elma dilimi patates": {
+  "desc": "Zeytinyağlı, patates pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Hasselback patates": {
+  "desc": "Patates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Patatesli omlet": {
+  "desc": "Patates ve soğan ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Ocaktan biraz erken almak doğrudur: yumurta tabakta da pişmeye devam eder."
+ },
+ "Mücver peynirli": {
+  "desc": "Rendelenmiş kabak ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Sebzenin suyunu sıkmak mücverin dağılmaması için en kritik adımdır."
+ },
+ "Ispanaklı mücver": {
+  "desc": "Rendelenmiş ıspanak ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Orta ateş idealdir: yüksek ateşte dışı yanar, içi çiğ kalır."
+ },
+ "Havuç mücveri": {
+  "desc": "Rendelenmiş havuç ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Harcı bekletme; un suyunu çekince kıvam bozulur."
+ },
+ "Patates mücveri": {
+  "desc": "Rendelenmiş patates ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Orta ateş idealdir: yüksek ateşte dışı yanar, içi çiğ kalır."
+ },
+ "Karnabahar mücveri": {
+  "desc": "Rendelenmiş karnabahar ile hazırlanan, dışı çıtır içi yumuşak tava mücveri; yanında sarımsaklı yoğurt.",
+  "tip": "Orta ateş idealdir: yüksek ateşte dışı yanar, içi çiğ kalır."
+ },
+ "Börülceli pilaki": {
+  "desc": "Zeytinyağlı, havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Kereviz salatası limonlu": {
+  "desc": "Kereviz ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Soğanlı bulgur köftesi": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Kıymalı yumurta": {
+  "desc": "Soğan ile hazırlanan, 20 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Ekşili köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte; sosunda pişirilerek tamamlanır.",
+  "tip": "Harcı dinlendirmeden pişirirsen köfteler tavada dağılır; 20 dakika buzdolabı şart."
+ },
+ "Terbiyeli köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte; sosunda pişirilerek tamamlanır.",
+  "tip": "Harcı dinlendirmeden pişirirsen köfteler tavada dağılır; 20 dakika buzdolabı şart."
+ },
+ "Kadınbudu köfte kıymalı": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Harcı dinlendirmeden pişirirsen köfteler tavada dağılır; 20 dakika buzdolabı şart."
+ },
+ "Çiftlik köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Hamsi buğulama": {
+  "desc": "Hamsi buğulama olarak pişirilir; 30 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Hamsi fırında": {
+  "desc": "Hamsi fırında pişirilir; 35 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Hamsi çorbası": {
+  "desc": "Patates ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Somon fırında sebzeli": {
+  "desc": "Kabak ve domates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Somon tava": {
+  "desc": "Somon tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Levrek fırında": {
+  "desc": "Levrek fırında pişirilir; 40 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Çupra fırında": {
+  "desc": "Çupra fırında pişirilir; 35 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Mezgit tava": {
+  "desc": "Mezgit tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Lüfer ızgara": {
+  "desc": "Lüfer ızgarada pişirilir; 25 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Kefal tava": {
+  "desc": "Kefal tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Balığı az pişirmek çok pişirmekten iyidir; lifleri ayrılıyorsa pişmiştir."
+ },
+ "Istavrit tava": {
+  "desc": "Istavrit tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Kılıç şiş": {
+  "desc": "Kılıç balığı ızgarada pişirilir; 35 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Ahtapot salatası": {
+  "desc": "Mevsim sebzeleri ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Karides tava": {
+  "desc": "Karides tavada pişirilir; 20 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Karides salatası": {
+  "desc": "Marul ve domates ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Balık köftesi": {
+  "desc": "Patates harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Ton balıklı börek": {
+  "desc": "Peynir harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "İç harcın suyunu iyice sık; ıslak harç yufkayı hamur bırakır."
+ },
+ "Balıklı tava çorba": {
+  "desc": "Patates ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 45 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Kalamar dolma": {
+  "desc": "Domates içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 3 kişilik.",
+  "tip": "Dinlenmeden servis edilen dolmanın pirinci diri kalır; 15 dakika bekle."
+ },
+ "Midye tava": {
+  "desc": "Midye tavada pişirilir; 25 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Midye pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde midye ve soğan var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Sardalya fırında": {
+  "desc": "Sardalya fırında pişirilir; 30 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Limonu pişirmeden çok önce sıkma; asit balığın dokusunu bozar."
+ },
+ "Uskumru fırında": {
+  "desc": "Uskumru fırında pişirilir; 35 dakikada hazır, yanında limon ve yeşillik.",
+  "tip": "Pişirmeden önce iyice kurulamak, tavaya yapışmasını büyük ölçüde engeller."
+ },
+ "Ton balıklı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde ton balığı konservesi ve mısır konservesi var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Ton balıklı omlet": {
+  "desc": "Tereyağı ile hazırlanan, 12 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Tavadaki fazla suyu uçurmadan yumurtayı kırma; yemek sulanır."
+ },
+ "Ton balıklı krep": {
+  "desc": "İnce hamurdan dökülen, istediğin iç harçla sarılan krep.",
+  "tip": "İlk hamur genelde kurban gider; tavanın sıcaklığını onunla ayarla."
+ },
+ "Peynirli kayık pide": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Sucuklu pide": {
+  "desc": "Kaşar harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Ispanaklı pide": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Fırın ne kadar sıcaksa taban o kadar çıtır olur; en yüksek derece şart."
+ },
+ "Lahmacun hızlı": {
+  "desc": "Kıyma harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Harcın suyunu süzmek, hamurun altının hamur kalmasını önler."
+ },
+ "Etli ekmek": {
+  "desc": "Kıyma harcıyla hazırlanan, yüksek ısıda kısa sürede pişen fırın hamuru.",
+  "tip": "Pişer pişmez üzerine tereyağı sürmek kenarları yumuşatır."
+ },
+ "Mantar böreği": {
+  "desc": "Mantar harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "İç harcın suyunu iyice sık; ıslak harç yufkayı hamur bırakır."
+ },
+ "Ispanaklı sigara böreği": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, kızartılan ev böreği.",
+  "tip": "Yufkaların üzerini nemli bezle örtmezsen kenarlar kurur ve pişerken çatlar."
+ },
+ "Patatesli börek": {
+  "desc": "Patates harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Böreği pişmeden kesmek, dilimlerin düzgün çıkmasını sağlar."
+ },
+ "Sosisli börek": {
+  "desc": "Yufka, sosis ve kaşar ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Kol böreği": {
+  "desc": "Kıyma harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "Böreği pişmeden kesmek, dilimlerin düzgün çıkmasını sağlar."
+ },
+ "Fırında makarna peynirli kıymalı": {
+  "desc": "Kremalı sosla harmanlanıp fırında üstü kızartılan makarna.",
+  "tip": "Tuzu haşlama suyuna cömert at; sos tuzlu olsa bile makarna içten yavan kalır."
+ },
+ "Mantı fırında": {
+  "desc": "İnce açılan hamura az harç konularak kapatılan, yoğurt ve kızgın yağla servis edilen mantı.",
+  "tip": "Tereyağını kararmadan, pul biber kırmızıya dönünce ocaktan al."
+ },
+ "Arabaşı çorbası": {
+  "desc": "Tavuk göğsü ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 60 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Mantı çorbası": {
+  "desc": "Yoğurt ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Kızdırılmış tereyağını tencereye dökersen tat daha eşit dağılır."
+ },
+ "Keşkek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Fırın kapağını erken açmak kekin ortasının çökmesinin bir numaralı sebebidir."
+ },
+ "Hamsili ekmek": {
+  "desc": "Hamsi, soğan ve zeytinyağı ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Kuru fasulye pilavla servis": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde kuru fasulye ve soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Barbunya pilaki zeytinyağlı": {
+  "desc": "Zeytinyağlı, havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Kırmızı mercimek yemeği": {
+  "desc": "Kırmızı mercimek ile pişen, zeytinyağlı klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Nohut ezmesi": {
+  "desc": "Nohut ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Blenderda uzun çekme; hafif pürüzlü doku mezeyi macun olmaktan kurtarır."
+ },
+ "Humus kırmızı biberli": {
+  "desc": "Nohut ezilerek hazırlanan, közün dumanlı tadını taşıyan soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Kuru dolma": {
+  "desc": "Kuru patlıcan içine etli pirinç harcı doldurularak pişirilen dolma; 6 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Domates dolması etli": {
+  "desc": "Domates içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Biber dolması zeytinyağlı pirinçli": {
+  "desc": "Biber içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Kabak çiçeği dolması": {
+  "desc": "Kabak çiçeği içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Pırasa dolması": {
+  "desc": "Soğan içine etli pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Harcı üçte iki doldur; pirinç pişerken şişer ve taşarsa dolma dağılır."
+ },
+ "Ispanak sarma": {
+  "desc": "Soğan içine etli pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Mantar dolması": {
+  "desc": "Sebze içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Soğanlı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde soğan var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Sarımsaklı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde sarımsak var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Tavuk suyuyla pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde tavuk suyu var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Mısırlı pilav": {
+  "desc": "Haşlanıp tereyağıyla servis edilen, istenirse ızgarada közlenen mısır.",
+  "tip": "Tuzu haşlama suyuna atma; mısırın taneleri sertleşir."
+ },
+ "Bezelyeli pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde bezelye var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Havuçlu pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Safranlı pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde safran var.",
+  "tip": "Demlenirken kapağı açmak buharı kaçırır; 10 dakikayı tam bekle."
+ },
+ "Zeytinyağlı kuru fasulye": {
+  "desc": "Zeytinyağlı, kuru fasulye pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı nohut": {
+  "desc": "Zeytinyağlı, havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı mercimek": {
+  "desc": "Zeytinyağlı, havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı brokoli": {
+  "desc": "Zeytinyağlı, brokoli ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı karnabahar": {
+  "desc": "Zeytinyağlı, karnabahar ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı kabak": {
+  "desc": "Zeytinyağlı, kabak pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı bezelye": {
+  "desc": "Zeytinyağlı, bezelye ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Zeytinyağlı pazı": {
+  "desc": "Zeytinyağlı, pazı pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı semizotu": {
+  "desc": "Zeytinyağlı, semizotu pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı kuşkonmaz": {
+  "desc": "Zeytinyağlı, kuşkonmaz pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı ıspanak sarma": {
+  "desc": "Soğan içine zeytinyağlı pirinç harcı doldurularak pişirilen dolma; 5 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Zeytinyağlı bakla": {
+  "desc": "Zeytinyağlı, bakla pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Zeytinyağlı biber": {
+  "desc": "Zeytinyağlı, biber pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı pırasa havuçlu": {
+  "desc": "Zeytinyağlı, pırasa ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Zeytinyağlı kereviz portakallı": {
+  "desc": "Zeytinyağlı, kereviz ve havuç pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Zeytinyağlılarda yağı kısma: yemeğin tadı ve dokusu yağdan gelir."
+ },
+ "Sebze graten": {
+  "desc": "Kabak, havuç ve patates zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Sebzeleri tek kat yay; tepsi kalabalıksa kızarma yerine haşlanma olur."
+ },
+ "Buharda sebze": {
+  "desc": "Havuç, brokoli ve kabak zeytinyağı ve baharatlarla fırında kenarları karamelize olana kadar pişirilir.",
+  "tip": "Eşit kalınlıkta doğramak hepsinin aynı anda pişmesini sağlar."
+ },
+ "Közlenmiş biber salatası": {
+  "desc": "Mevsim sebzeleri ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Közlenmiş patlıcan salatası": {
+  "desc": "Patlıcan ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Domates salatası soğanlı": {
+  "desc": "Domates ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Patlıcan ezmesi": {
+  "desc": "Patlıcan ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Kabak ezmesi": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Havuç ezmesi": {
+  "desc": "Havuç ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Cevizli biber ezmesi": {
+  "desc": "Kırmızı biber ezilerek hazırlanan, közün dumanlı tadını taşıyan soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Muhammara": {
+  "desc": "Kapya biber ezilerek hazırlanan, közün dumanlı tadını taşıyan soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Blenderda uzun çekme; hafif pürüzlü doku mezeyi macun olmaktan kurtarır."
+ },
+ "Zeytin ezmesi tost": {
+  "desc": "Zeytin ezmesi ve kaşar ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Labne dip": {
+  "desc": "Sebze ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Blenderda uzun çekme; hafif pürüzlü doku mezeyi macun olmaktan kurtarır."
+ },
+ "Çökelek ezmesi": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Zeytinyağını azar azar eklemek, mezenin kremamsı olmasını sağlar."
+ },
+ "Lor peynirli tabak": {
+  "desc": "Soğuk malzemelerin dengeli biçimde yerleştirildiği, hazırlığı birkaç dakika süren tabak.",
+  "tip": "Sulu malzemeleri ayrı köşeye koymak tabağın görüntüsünü korur."
+ },
+ "Peynir böreği tava": {
+  "desc": "Beyaz peynir harcıyla hazırlanan, kızartılan ev böreği.",
+  "tip": "Yufkaların üzerini nemli bezle örtmezsen kenarlar kurur ve pişerken çatlar."
+ },
+ "Yoğurtlu kuru köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte; sosunda pişirilerek tamamlanır.",
+  "tip": "Tavayı tek seferde doldurma; iki partide pişirmek daha iyi bir kabuk verir."
+ },
+ "Soğuk sandviç tavuklu": {
+  "desc": "Tavuk göğsü, marul ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Ton sandviç": {
+  "desc": "Ton balığı konservesi, mayonez ve marul ile hazırlanan, pratik ara öğün.",
+  "tip": "Kestikten hemen önce 1 dakika dinlendirmek iç malzemenin akmasını önler."
+ },
+ "Jambonlu tost": {
+  "desc": "Jambon ve kaşar ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Hindi füme sandviç": {
+  "desc": "Hindi, marul ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Sebzeli dürüm": {
+  "desc": "Marul, domates ve salatalık ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Falafel kasesi": {
+  "desc": "Pirinç tabanı üzerine nohut ve domates ve salatalık yerleştirilen doyurucu kâse.",
+  "tip": "Malzemeleri karıştırmadan, ayrı bölgelere dizmek kâsenin bütün fikri."
+ },
+ "Poke kase": {
+  "desc": "Pirinç tabanı üzerine somon ve salatalık yerleştirilen doyurucu kâse.",
+  "tip": "Malzemeleri karıştırmadan, ayrı bölgelere dizmek kâsenin bütün fikri."
+ },
+ "Buddha bowl": {
+  "desc": "Kinoa tabanı üzerine nohut ve havuç ve mor lahana yerleştirilen doyurucu kâse.",
+  "tip": "Malzemeleri karıştırmadan, ayrı bölgelere dizmek kâsenin bütün fikri."
+ },
+ "Tavuklu kase": {
+  "desc": "Pirinç tabanı üzerine tavuk göğsü ve brokoli ve havuç yerleştirilen doyurucu kâse.",
+  "tip": "Sosu servise yakın ekle; önceden soslanan kâse sulanır."
+ },
+ "Yoğurtlu tavuk salatası": {
+  "desc": "Salatalık ile hazırlanan, hafif salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Mısırlı tavuk salatası": {
+  "desc": "Mısır konservesi ve marul ile hazırlanan, tok tutan salata.",
+  "tip": "Salatayı servis kâsesinde değil, geniş bir kapta karıştırıp öyle aktarmak daha iyi dağıtır."
+ },
+ "Mercimek salatası kırmızı": {
+  "desc": "Kırmızı mercimek ile hazırlanan, tok tutan salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Haşlanmış patates salatası limonlu": {
+  "desc": "Patates ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Pancar tarator": {
+  "desc": "Yoğurt ezilerek hazırlanan, soğuk meze; ekmek ya da pide kenarında.",
+  "tip": "Ezmeyi 30 dakika dinlendirmek tatların oturması için yeterli."
+ },
+ "Karnabahar püresi": {
+  "desc": "Karnabahar haşlanıp ezilerek hazırlanan, tereyağıyla kremamsı hâle gelen püre.",
+  "tip": "Blender püreyi sakızlaştırır; el ezicisi ya da süzgeç kullan."
+ },
+ "Sebzeli pilav bulyonlu": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde havuç ve bezelye var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Tarçınlı pirinç lapası": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde süt ve şeker var.",
+  "tip": "Tereyağının yarısını en sonda eklersen kokusu daha belirgin olur."
+ },
+ "Hurmalı kek": {
+  "desc": "Çırpılarak kabartılan, fırında eşit pişen ev keki; çayın yanına.",
+  "tip": "Yumurta-şeker karışımını az çırparsan kek kabarmaz; 5 dakika az değil."
+ },
+ "Fındıklı sütlaç": {
+  "desc": "Sütün pirinç ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Tahinli kurabiye": {
+  "desc": "Ağızda dağılan, kenarları hafif kızarmış ev kurabiyesi.",
+  "tip": "Tepsiye aralıklı dizmezsen kurabiyeler birbirine yapışır."
+ },
+ "Pekmezli tahin": {
+  "desc": "Tahin, pekmez ve ekmek ile kurulan doyurucu kâse.",
+  "tip": "Malzemeleri kâsede ayrı bölgelere dizmek hem görüntüyü hem dokuyu korur."
+ },
+ "Pekmezli yulaf": {
+  "desc": "Birkaç dakikada hazırlanan, tok tutan yulaf kâsesi.",
+  "tip": "Meyveyi en sona eklemek hem rengi hem dokusu için daha iyi."
+ },
+ "Tahinli sütlü tatlı": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Nişastayı mutlaka soğuk sütte çöz; sıcak süte dökersen topaklanır."
+ },
+ "Bal kabaklı puding": {
+  "desc": "Sütün nişasta ile kıvam aldığı, soğuk servis edilen klasik sütlü tatlı.",
+  "tip": "Kıvam, kaşığın arkasında iz bırakınca tamamdır; fazla pişirmek tatlıyı sertleştirir."
+ },
+ "Tavuk kebabı fırında": {
+  "desc": "Tavuk göğsü baharatlı harçta bekletilip fırında pişirilen tepsi yemeği; altındaki biber etin suyunu çeker.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Tavuk tikka": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 140 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Tavuk kavurma": {
+  "desc": "Tavuk göğsü yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 35 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Mantarlı tavuk güveç": {
+  "desc": "Tavuk but önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; mantar ve soğan birlikte yaklaşık 60 dakikada hazır.",
+  "tip": "Kısık ateş uzun süre, yüksek ateş kısa süreden her zaman daha yumuşak et verir."
+ },
+ "Tavuk but fırın baharatlı": {
+  "desc": "Tavuk but baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Tavuk bonfile sarma": {
+  "desc": "Sebze içine etli pirinç harcı doldurularak pişirilen dolma; 4 kişilik.",
+  "tip": "Üste kapatılan tabak, dolmaların pişerken oynayıp açılmasını önler."
+ },
+ "Tavuk kanat fırında baharatlı": {
+  "desc": "Tavuk kanat baharatlı harçta bekletilip fırında yavaş pişirilen tepsi yemeği.",
+  "tip": "Eti fırından çıkar çıkmaz kesme; 10 dakika dinlenmesi kuru kalmasını engeller."
+ },
+ "Tavuk bacağı haşlama pilavlı": {
+  "desc": "Tavuk but kısık ateşte, berrak suyunda yavaşça haşlanır; suyu da ayrıca değerlendirilir.",
+  "tip": "Kaynatmak yerine hafif fokurdatmak etin yumuşak kalmasını sağlar."
+ },
+ "Tavuk ve sebze tava": {
+  "desc": "Tavuk göğsü tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 30 dakikada sofrada.",
+  "tip": "Et buzdolabından çıkar çıkmaz pişirilmez; 10-15 dakika beklemesi eşit pişmesini sağlar."
+ },
+ "Tavuk şnitzel peynirli": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Köfteli patates": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Harcı dinlendirmeden pişirirsen köfteler tavada dağılır; 20 dakika buzdolabı şart."
+ },
+ "Izgara köfte soslu": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte; sosunda pişirilerek tamamlanır.",
+  "tip": "Harcı dinlendirmeden pişirirsen köfteler tavada dağılır; 20 dakika buzdolabı şart."
+ },
+ "Mantarlı köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Peynirli köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, tavada kızartılan köfte.",
+  "tip": "Tavayı tek seferde doldurma; iki partide pişirmek daha iyi bir kabuk verir."
+ },
+ "Şiş köfte": {
+  "desc": "Kıyma harcıyla yoğrulup dinlendirilen, ızgarada kızartılan köfte.",
+  "tip": "Köfteyi avucunda sıkıştırarak şekillendirmek içindeki havayı alır, daha sıkı olur."
+ },
+ "Sebzeli kıymalı güveç": {
+  "desc": "Kıyma önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 60 dakikada hazır.",
+  "tip": "Kısık ateş uzun süre, yüksek ateş kısa süreden her zaman daha yumuşak et verir."
+ },
+ "Kıymalı pazı": {
+  "desc": "Kıyma ile pazı pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Pişerken sık karıştırmak sebzeyi dağıtır; tencereyi tutup sallamak daha güvenli."
+ },
+ "Kıymalı mantar": {
+  "desc": "Kıyma ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Eti önce kavurmak yemeğin suyuna tat verir; bu adımı atlama."
+ },
+ "Kıymalı brokoli": {
+  "desc": "Kıyma ile brokoli pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Etli patlıcan": {
+  "desc": "Kuşbaşı et ile patlıcan pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Etli taze bakla": {
+  "desc": "Bakla ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 4 kişilik.",
+  "tip": "Tuzu sona bırak: erken tuz tanelerin kabuğunu sertleştirir."
+ },
+ "Etli mantar": {
+  "desc": "Kuşbaşı et ile mantar pişen tencere yemeği; pilav ya da ekmekle sofraya gelir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Dana kavurma tavada": {
+  "desc": "Dana eti yüksek ateşte kızartılıp baharatlarla buluşturulan pratik sote. Yaklaşık 50 dakika.",
+  "tip": "Tuzu baştan atma; et suyunu salıp sertleşebilir."
+ },
+ "Sote et biberli": {
+  "desc": "Dana eti yüksek ateşte kızartılıp biber buluşturulan pratik sote. Yaklaşık 40 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Dana bonfile sote": {
+  "desc": "Bonfile yüksek ateşte kızartılıp mantar buluşturulan pratik sote. Yaklaşık 25 dakika.",
+  "tip": "Sebzeleri sırayla, sert olandan yumuşağa doğru eklemek hepsinin kıvamını korur."
+ },
+ "Kuzu güveç sebzeli": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; patates ve havuç birlikte yaklaşık 120 dakikada hazır.",
+  "tip": "Kısık ateş uzun süre, yüksek ateş kısa süreden her zaman daha yumuşak et verir."
+ },
+ "Kuzu kapama": {
+  "desc": "Kuzu eti önce mühürlenip ardından kısık ateşte uzun süre pişirilen güveç; soğan birlikte yaklaşık 120 dakikada hazır.",
+  "tip": "Mühürleme adımını atlama; etin rengini alması yemeğin tadının yarısıdır."
+ },
+ "Kuzu haşlama": {
+  "desc": "Kuzu eti kısık ateşte, berrak suyunda yavaşça haşlanır; suyu da ayrıca değerlendirilir.",
+  "tip": "Kaynatmak yerine hafif fokurdatmak etin yumuşak kalmasını sağlar."
+ },
+ "Kuzu tandır pilavla": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde kuzu eti var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Et kavurma sandviç": {
+  "desc": "Kuşbaşı et, domates ve soğan ile hazırlanan, pratik ara öğün.",
+  "tip": "Ekmeğin içine ince bir yağ ya da sos tabakası sürmek, ıslanmasını engeller."
+ },
+ "Sucuk ızgara": {
+  "desc": "Sucuk tavada yüksek ateşte kızartılarak hazırlanan hızlı ana yemek. 15 dakikada sofrada.",
+  "tip": "Tavadaki kahverengi tortuyu biraz suyla çözüp üzerine dökersen sos elde edersin."
+ },
+ "Sucuklu pilav": {
+  "desc": "Pirinç ile yapılan, tane tane olması için demlendirilen pilav; içinde sucuk var.",
+  "tip": "Pilav sulu kaldıysa kapağı açıp en kısık ateşte 2-3 dakika daha tut, karıştırma."
+ },
+ "Pastırmalı yumurta": {
+  "desc": "Tereyağı ile hazırlanan, 12 dakikada sofraya gelen yumurta yemeği.",
+  "tip": "Yumurtayı kısık ateşte pişirmek ipeksi bir doku verir; yüksek ateş lastikleştirir."
+ },
+ "Pastırmalı kuru fasulye": {
+  "desc": "Kuru fasulye ile pişen, etli klasik tencere yemeği. Pilavla servis edilir, 5 kişilik.",
+  "tip": "Bir gece önceden ıslatmayı unuttuysan kaynar suda 1 saat bekletmek işe yarar."
+ },
+ "Pastırmalı makarna": {
+  "desc": "Kremalı sosla harmanlanan, al dente haşlanmış makarna. 3 kişilik.",
+  "tip": "Makarnayı sosun içinde 1 dakika çevirmek, sosu üstüne dökmekten her zaman daha iyidir."
+ },
+ "Sosisli omlet": {
+  "desc": "Yumurta, sosis ve kaşar ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Salamlı tost": {
+  "desc": "Salam ve kaşar ile hazırlanan, çıtır çıtır kızartılan pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Hindili wrap": {
+  "desc": "Hindi, marul ve domates ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Humuslu tavuk dürüm": {
+  "desc": "Tavuk göğsü, nohut ve tahin ile hazırlanan, pratik ara öğün.",
+  "tip": "Peynirin tam erimesi için orta ateş ve kapak kullan; yüksek ateşte dışı yanar."
+ },
+ "Çıtır karnabahar": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Çıtır kabak": {
+  "desc": "Galeta unu galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Yağın sıcaklığı düşerse kızartma yağ çeker; partiler hâlinde kızart."
+ },
+ "Çıtır patates": {
+  "desc": "Patates galeta unuyla kaplanıp kızgın yağda çıtır çıtır kızartılır; sıcak servis edilir.",
+  "tip": "Kaplamayı buzdolabında dinlendirmek, kızartırken dökülmesini önler."
+ },
+ "Peynirli patates": {
+  "desc": "Zeytinyağlı, patates pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Baharatlı patates": {
+  "desc": "Zeytinyağlı, patates pişen tencere yemeği; ılık ya da oda sıcaklığında yenir.",
+  "tip": "Sebzeyi suyun içinde boğma; yarıya kadar su yeterli, gerisini kendi suyu halleder."
+ },
+ "Tereyağlı mısır": {
+  "desc": "Haşlanıp tereyağıyla servis edilen, istenirse ızgarada közlenen mısır.",
+  "tip": "Tuzu haşlama suyuna atma; mısırın taneleri sertleşir."
+ },
+ "Közlenmiş mısır": {
+  "desc": "Haşlanıp tereyağıyla servis edilen, istenirse ızgarada közlenen mısır.",
+  "tip": "Tuzu haşlama suyuna atma; mısırın taneleri sertleşir."
+ },
+ "Kestane kebabı": {
+  "desc": "Kabuğu çizilip fırında közlenen, sıcak sıcak soyulan kestane.",
+  "tip": "Kestaneyi çizmeden fırına verme; patlar."
+ },
+ "Haşlama kestane": {
+  "desc": "Kabuğu çizilip fırında közlenen, sıcak sıcak soyulan kestane.",
+  "tip": "Kestaneyi çizmeden fırına verme; patlar."
+ },
+ "Leblebi tozu çorbası": {
+  "desc": "Ev malzemeleri ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 30 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Balkabağı çorbası krema": {
+  "desc": "Ev malzemeleri ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 40 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Domatesli pirinç çorbası": {
+  "desc": "Pirinç ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 35 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Sebzeli tavuk çorbası": {
+  "desc": "Havuç ile pişirilen, taneleri hissedilen ev usulü çorba. 4 kişilik, yaklaşık 45 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Mercimek çorbası tavuklu": {
+  "desc": "Kırmızı mercimek ile pişirilen, blenderdan geçirilmiş kadife kıvamında ev usulü çorba. 4 kişilik, yaklaşık 45 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Sebzeli noodle çorbası": {
+  "desc": "Havuç ile pişirilen, taneleri hissedilen ev usulü çorba. 3 kişilik, yaklaşık 25 dakikada hazır.",
+  "tip": "Çorbayı kaynar suyla açmak kıvamı korur; soğuk su eklersen tadı sulanır."
+ },
+ "Miso tarzı çorba": {
+  "desc": "Mantar ile pişirilen, taneleri hissedilen ev usulü çorba. 2 kişilik, yaklaşık 20 dakikada hazır.",
+  "tip": "Koyulaşırsa sıcak su, cılız kaldıysa kapağı açıp 5 dakika daha kaynatmak işe yarar."
+ },
+ "Lahana turşusu salatası": {
+  "desc": "Lahana turşusu ve havuç ile hazırlanan, hafif salata.",
+  "tip": "Sosu en sona bırak; erken soslanan salata sulanır."
+ },
+ "Çiğ börek kıymalı": {
+  "desc": "İnce açılan hamurun içine kıyma konup kızgın yağda kızartıldığı geleneksel hamur işi.",
+  "tip": "Pişenleri bezle örtmek yumuşak kalmalarını sağlar."
+ },
+ "Su böreği peynirli": {
+  "desc": "Peynir harcıyla hazırlanan, fırında pişen ev böreği.",
+  "tip": "İç harcın suyunu iyice sık; ıslak harç yufkayı hamur bırakır."
+ }
+}

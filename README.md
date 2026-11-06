@@ -1,51 +1,65 @@
-# Yemek Planlayıcı
+# Yemek Planlayıcı ve Alışveriş Listesi
 
-Evdeki malzemelere göre yapılabilecek yemekleri öneren ve eksik malzemeleri alışveriş listesine ekleyen küçük bir uygulama.
+Dolabındaki malzemelere göre ne pişirebileceğini gösteren, haftalık menü planlayan ve eksik malzemelerden reyonlara göre gruplanmış alışveriş listesi çıkaran bir web uygulaması. Python, Streamlit ve SQLite ile yazıldı.
+
+<!-- Ekran görüntülerini docs/ klasörüne koyup burada göster:
+![Tarifler](docs/tarifler.png)
+![Alışveriş listesi](docs/alisveris.png) -->
 
 ## Özellikler
-- Evdeki malzemeleri ekleme ve silme
-- Tarifleri malzeme eşleşme yüzdesine göre sıralama
-- Tarif detaylarını ve yapılış adımlarını görme
-- Eksik malzemeleri tek tıkla alışveriş listesine ekleme
-- Alışveriş listesinde "Aldım" ile ürünü evdeki malzemelere taşıma
 
-## Kullanılan teknolojiler
-- Python 3.11+
-- Streamlit (arayüz)
-- pytest (testler)
+- **Tarif bulma:** Dolaptaki malzemelerle eşleşme oranına göre sıralama; eksik malzemeler ayrıca gösterilir. Kahvaltı, yemek ve tatlı filtresi, süre ve sıralama seçenekleri.
+- **Dolap yönetimi:** Miktar ve birimle stok takibi. Yemek bittiğinde kullanılan miktar dolaptan düşer (1 kg biberden 2 tane kullanılırsa kalan miktar korunur). Birimler arası çevirme desteklenir.
+- **Kişi sayısına göre ölçekleme:** Malzeme miktarları ve adım metinlerindeki miktarlar birlikte güncellenir.
+- **Adım adım pişirme modu:** Hazırlık, adımlar ve bitiş aşamaları; süre algılayan zamanlayıcılar.
+- **Haftalık plan:** Gün ve öğüne göre menü, birleşik alışveriş listesi.
+- **Alışveriş listesi:** Reyonlara göre gruplama, panoya kopyalama ve indirme.
+- **Beslenme ve tercihler:** Diyet türü, alerjiler, mutfak ekipmanı profili, besin değeri hesabı ve hedefe göre sıralama.
+- **Tarifler:** 741 hazır tarif, her biri için açıklama, ayrıntılı adımlar ve püf noktası. Kendi tariflerini ekleyebilirsin.
+- **Koyu ve açık tema.**
 
 ## Kurulum
-```
+
+Python 3.12 önerilir.
+
+```bash
 git clone https://github.com/kubra-jpg/yemek-planlayici.git
 cd yemek-planlayici
+
 python -m venv .venv
-.venv\Scripts\activate
+# Windows (PowerShell):  .venv\Scripts\Activate.ps1
+# macOS / Linux:         source .venv/bin/activate
+
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Uygulama tarayıcıda `http://localhost:8501` adresinde açılır.
+İlk çalıştırmada veritabanı ve hazır tarifler otomatik oluşturulur.
 
 ## Testler
-```
+
+```bash
 pytest
 ```
 
 ## Proje yapısı
+
 ```
-app.py              Streamlit arayüzü
-core/matcher.py     Tarif eşleştirme mantığı
-data/recipes.json   Tarif verisi
-tests/              Birim testleri
+app.py                 Arayüz (Streamlit)
+update_recipes.py      data/recipes.json içeriğini mevcut veritabanına uygular
+core/
+  repository.py        Veritabanı erişimi
+  matcher.py, units.py, filters.py   Eşleştirme, birimler, filtreleme
+  deduct.py, shopping.py, planner.py Stok düşme, alışveriş listesi, haftalık plan
+  cooking.py, timers.py              Ölçekleme, pişirme modu
+  diet.py, equipment.py, nutrition.py, goals.py
+  ui.py                Tema ve arayüz bileşenleri
+data/                  Tarifler, açıklamalar, ekipman verisi
+tests/                 Birim testleri
 ```
 
-## Bilinen notlar
-- Tarayıcının otomatik çevirisi yazıları bozabilir. Sorun yaşarsan `python fix_lang.py` komutunu bir kez çalıştır ve uygulamayı yeniden başlat.
-- Veriler şimdilik sadece oturum boyunca saklanır; sayfa yenilenince sıfırlanır. Kalıcı saklama (SQLite) sonraki aşamada eklenecek.
+Mantık katmanı (`core/`) arayüzden bağımsız saf Python modüllerinden oluşur ve ayrı ayrı test edilir.
 
-## Yol haritası
-- [x] Aşama 1: Malzeme girişi, tarif eşleştirme, alışveriş listesi
-- [ ] Aşama 2: Kalıcı veri, miktar/birim, tarif ekleme ve düzenleme
-- [ ] Aşama 3: Haftalık plan, son kullanma tarihi takibi
-- [ ] Aşama 4: Diyet ve alerji filtreleri
-- [ ] Aşama 5: Alışveriş listesi geliştirmeleri
+## Lisans
+
+MIT, ayrıntılar için `LICENSE` dosyasına bak.

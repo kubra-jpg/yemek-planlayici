@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 .pytest_cache/
 data/yemek.db
+data/plan.json
+data/diet.json
+data/history.json
