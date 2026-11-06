@@ -2,9 +2,27 @@
 
 Dolabındaki malzemelere göre ne pişirebileceğini gösteren, haftalık menü planlayan ve eksik malzemelerden reyonlara göre gruplanmış alışveriş listesi çıkaran bir web uygulaması. Python, Streamlit ve SQLite ile yazıldı.
 
-<!-- Ekran görüntülerini docs/ klasörüne koyup burada göster:
-![Tarifler](docs/tarifler.png)
-![Alışveriş listesi](docs/alisveris.png) -->
+## Ekran görüntüleri
+
+**Tarifler:** dolaptaki malzemelere göre eşleşme oranı, kalori ve protein, eksik malzemeler.
+
+![Tarif listesi](docs/tarif.png)
+
+**Tarif detayı:** malzemeler ve adım adım yapılış.
+
+![Tarif detayı](docs/tarif3.png)
+
+**Pişirme modu:** kişi sayısına göre ölçeklenen adımlar ve zamanlayıcı.
+
+![Pişirme modu](docs/pisirme.sayac.png)
+
+**Dolap:** hazır paketler ve kategorilere göre malzeme seçimi.
+
+![Dolap](docs/dolap.png)
+
+**Alışveriş listesi:** reyonlara göre gruplanmış, kopyalanabilir ve indirilebilir.
+
+![Alışveriş listesi](docs/alisveris.png)
 
 ## Özellikler
 
