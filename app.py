@@ -7,6 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 from core import repository as repo
 from core.catalog import PRESETS, catalog_groups, catalog_names
@@ -1131,3 +1132,19 @@ PAGE_FUNCS = {
     "Tariflerim": page_manage,
 }
 PAGE_FUNCS[page]()
+
+# Sayfa dilini Türkçe olarak işaretle: tarayıcının otomatik çevirisi (Google Çeviri)
+# Türkçe metni İngilizce sanıp bozmasın.
+components.html(
+    """<script>
+    const d = window.parent.document;
+    d.documentElement.lang = "tr";
+    d.documentElement.setAttribute("translate", "no");
+    if (!d.querySelector('meta[name="google"]')) {
+      const m = d.createElement("meta");
+      m.name = "google"; m.content = "notranslate";
+      d.head.appendChild(m);
+    }
+    </script>""",
+    height=0,
+)
